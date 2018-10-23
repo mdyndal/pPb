@@ -50,3 +50,282 @@ Therefore we obtain the elastic flux
 %%
 For $^{208}Pb$ the charge is $Z=82$.
 
+%----------------------------------------
+\subsection{Inelastic vertices}
+%----------------------------------------
+
+We consider the inelastic processes with breakup of a proton. 
+Then the hadronic tensor is expressed in terms of the electromagnetic currents as:
+%%
+\begin{eqnarray}
+ W^{\rm{in}}_{\mu \nu}(M_X^2,Q^2) = \overline{\sum_X} (2 \pi)^3 \, \delta^{(4)} (p_X - p_A - q) \, \bra{p} J_\mu \ket{X}\bra{X} J_\nu^\dagger \ket{p} \, d\Phi_X \, ,
+\label{eq:Wmunu}
+\end{eqnarray}
+and its elements can be measured in inclusive electron scattering 
+off the target. We wish to express it in terms of the virtual photoabsorption cross section
+of transverse and longitudinal photons. To this end we introduce the covariant vectors tensors
+%%
+\begin{eqnarray}
+e_\mu^{(0)} = \sqrt{Q^2 \over  X} \Big( p_{A\mu} - { (p_A \cdot q ) \over q^2} q_\mu \Big) \, , \, 
+X = (p_A \cdot q)^2 + m_A^2 Q^2 \, , \, e^{(0)}\cdot e^{(0)} = + 1 \, ,
+\end{eqnarray}
+%%
+and
+%%
+\begin{eqnarray}
+\delta^\perp_{\mu \nu}(p_A,q) = g_{\mu \nu} - {q_\mu q_\nu \over q^2} - e^{(0)}_\mu e^{(0)}_\nu \, .
+\end{eqnarray}
+%%
+Here $\delta^\perp_{\mu\nu}$ projects on photons carrying helicity $\pm 1$ in the $\gamma^* p$-cms frame,
+and $e_\mu^{(0)}$ plays the role of the polarization vector of the longitudinal photon.
+Notice that $q\cdot e^{0} = q^\mu \delta^\perp_{\mu \nu} = 0$, so that the hadronic tensor has the convenient
+gauge invariant decomposition
+%%
+\begin{eqnarray}
+  W^{\rm{in}}_{\mu \nu}(M_X^2,Q^2) = - \delta^\perp_{\mu \nu} (p_A,q) \, W^{\rm{in}}_T(M_X^2, Q^2) + e^{(0)}_\mu e^{(0)}_\nu \, W^{\rm{in}}_L(M_X^2, Q^2) \, .
+\end{eqnarray}
+The virtual photoabsorption cross sections are defined as
+%%
+\begin{eqnarray}
+ \sigma_T(\gamma^* p) &=& {4 \pi \aem \over 4 \sqrt{X}} \, \Big(- {\delta^\perp_{\mu\nu} \over 2} \Big)  2\pi W^{\rm{in}}_{\mu \nu}(M_X^2,Q^2) \nonumber \\
+ \sigma_L(\gamma^* p) &=& {4 \pi \aem \over 4 \sqrt{X}} \, e^{0}_\mu e^{0}_\nu \, 2 \pi W^{\rm{in}}_{\mu \nu}(M_X^2,Q^2) \, .
+\end{eqnarray}
+%%
+It is customary to introduce dimensionless structure function $F_i(x_{\rm Bj},Q^2), i = T,L$ as
+%%
+\begin{eqnarray}
+ \sigma_{T,L}(\gamma^* p) = {4 \pi^2 \aem \over Q^2} \, {1 \over \sqrt{1 + {4 x^2_{\rm Bj} m_A^2 \over Q^2}} } \, F_{T,L}(x_{\rm Bj},Q^2) \, ,
+\end{eqnarray}
+where
+%%
+\begin{eqnarray}
+ x_{\rm Bj} = { Q^2 \over Q^2 + M_X^2 - m_A^2} \, .
+\end{eqnarray}
+%%
+Then, our structure functions $W_{T,L}$ are expressed through the more conventional $F_{T,L}$ as
+%%
+\begin{eqnarray}
+ W^{\rm{in}}_{T,L}(M_X^2,Q^2) = {1 \over x_{\rm Bj}} \, F_{T,L}(x_{\rm Bj},Q^2) \, . 
+\end{eqnarray}
+%%
+In the literature one often finds rather $F_1(x_{\rm Bj}, Q^2), F_2(x_{\rm Bj},Q^2)$
+structure functions, which are related to $F_{T,L}$ through
+%%
+\begin{eqnarray}
+ F_T(x_{\rm Bj},Q^2) &=& 2x_{\rm Bj}  F_1(x_{\rm Bj},Q^2) \, , \nonumber \\
+F_2(x_{\rm Bj},Q^2)  &=& { F_T(x_{\rm Bj},Q^2) +F_L(x_{\rm Bj},Q^2)
+  \over 1 + {4 x^2_{\rm Bj} m_A^2 \over Q^2}} \; .
+\end{eqnarray}
+%%
+Now, performing the contraction with $p^\mu_B p^\nu_B$, we get
+%%
+\begin{eqnarray}
+  {p_B^\mu p_B^\nu \over s^2} \, W^{\rm in}_{\mu \nu}(M_X^2,Q^2) = \Big( 1 - {z \over x_{\rm Bj}} + {z^2\over 4 x_{\rm Bj}^2} \Big) {F_2(x_{\rm Bj},Q^2) \over Q^2 + M_X^2 - m_p^2} 
++ {z^2 \over 4 x^2_{\rm Bj}} { 2 x_{\rm Bj} F_1(x_{\rm Bj},Q^2) \over Q^2 + M_X^2 - m_p^2} \, .
+\end{eqnarray}
+%%
+In the deep inelastic region $F_2 \sim F_T + F_L$, and using $2x_{\rm Bj} F_1 \sim F_2$ in the second term, we can write more succinctly
+%%
+\begin{eqnarray}
+  {p_B^\mu p_B^\nu \over s^2} \, W^{\rm in}_{\mu \nu}(M_X^2,Q^2) = Q^2 \cdot f_T \Big( {z \over x_{\rm Bj}} \Big) \,  x_{\rm Bj} F_2(x_{\rm Bj},Q^2) \, ,
+\end{eqnarray}
+%%
+with 
+%%
+\begin{eqnarray}
+ f_T(y) = 1 - y + y^2/2 = {1 \over 2} \Big[ 1 + (1-y)^2 \Big] \, .
+\end{eqnarray}
+
+%-----------------------------------------------------------
+\subsection{Collinear-factorization approach}
+%-----------------------------------------------------------
+
+Production of lepton pairs at large transverse momenta is a hard process, to which
+standard arguments for factorization apply, and collinear factorization should be an appropriate starting point to calculate e.g. rapidity or transverse momentum spectra of leptons.
+In fact, the dominant contribution to large-invariant mass dilepton pairs is of course the well known Drell-Yan process, but nothing prevents us from also including photon as partons along with quarks and gluons.
+
+Then the photon parton distribution, $\gamma(z,Q^2)$, of photons carrying a fraction $z$ of the proton's
+light-cone momentum, obeys the DGLAP equation,
+%%
+\begin{eqnarray}
+{d \gamma(z,Q^2) \over d \log Q^2} =&& {\alpha_{\rm{em}} \over 2 \pi} \int_x^1 {dy \over y} 
+\Big \{ \sum_f e_f^2 P_{\gamma \leftarrow q}(y) 
+\Big[ q_f \Big({z \over y}, Q^2 \Big) + \bar q_f\Big({z \over y},Q^2\Big) \Big] \nonumber \\
+&&+ P_{\gamma \leftarrow \gamma}(y) \gamma\Big({z \over y},Q^2\Big) \Big \} \, .
+\end{eqnarray}
+%%
+In the complete set of DGLAP equations this photon density is then again coupled to the quark and antiquark
+distributions:
+%%
+\begin{eqnarray}
+ {d q_f(z,Q^2 )\over d \log Q^2} =&& {d q_f(z,Q^2) \over d \log Q^2}\Big|_{\rm{QCD}} + {\aem \over 2 \pi} \int_x^1 {dy \over y} 
+\delta P_{q \leftarrow q}^{\rm{QED}}(y) q_f\Big({z \over y}, Q^2\Big)
+\nonumber \\
++&& {\aem \over 2 \pi} \int_x^1 {dy \over y}  P_{q \leftarrow \gamma}(y)
+\gamma\Big({z \over y},Q^2\Big) \; . \nonumber \\
+\end{eqnarray}
+%%
+Due to the smallness of $\alpha_{\rm{em}}$ one would expect that the effect of photons on the quark and antiquark densities
+can be safely neglected, unless one is interested in high order perturbative corrections to the QCD splitting functions
+themselves.
+
+Accordingly, we find two different approaches to DGLAP photons in the literature.
+
+A first one, by Gl\"uck et al. \cite{Gluck:2002fi} asserts, that 
+we can neglect the photon density on the right hand side of the evolution equations.
+Then, at sufficiently large virtuality $Q_0^2$, the photon parton density can
+be calculated from the collinear splitting of quarks and antiquarks 
+$q \to q \gamma, \bar q \to \bar q  \gamma$. 
+%%
+\begin{eqnarray}
+ {d \gamma(z,Q^2)\over d \log Q^2} = {\aem \over 2 \pi} \sum_f  e_f^2 \int_z^1 {dx \over x}   P_{\gamma \leftarrow q}\Big({z \over x}\Big)
+\Big[ q_f(x,Q^2) + \bar q_f(x,Q^2) \Big] \; .
+\label{eq:Dortmund}
+\end{eqnarray}
+%%
+This equation is easily integrated, and gives the photon parton density as
+%%
+\begin{eqnarray}
+ \gamma(z,Q^2) &=& \sum_f { \aem e_f^2 \over 2 \pi} \int_{Q_0^2}^{Q^2} {d \mu^2 \over \mu^2} 
+\int_z^1 {dx \over x}  P_{\gamma \leftarrow q}\Big({z \over x}\Big)
+\Big[ q_f(x,\mu^2) + \bar q_f(x,\mu^2) \Big] + \gamma(z,Q_0^2) \nonumber \\
+&=& {\aem \over 2 \pi} \int_{Q_0^2}^{Q^2} {d \mu^2 \over \mu^2} \int_z^1 {dx \over x}  
+P_{\gamma \leftarrow q}\Big({z \over x}\Big) {F_2(x,\mu^2) \over x} 
++ \gamma(z,Q_0^2) \, .
+\end{eqnarray}
+%%
+One is left to specify -- from some  model considerations -- the photon density at some low scale $\gamma(z,Q_0^2)$, but
+one may hope that at very large $Q^2 \gg Q_0^2 \sim 1 \, {\rm GeV}^2$ the part predicted perturbatively 
+from quark and antiquark distributions dominates.
+
+In addition to the above contribution from DGLAP splitting, Gl\"uck et
+al. also add the Weizs\"acker-Williams flux from the coherent emission 
+$p \to p \gamma^*$ without proton breakup as found in \cite{Budnev:1974de}.
+ 
+The Durham \cite{Martin:2004dh,Martin:2014nqa} and NNPDF 
+\cite{Ball:2013hta} groups have given a more involved treatment, 
+in which the photon distribution is fully incorporated into the coupled 
+DGLAP evolution equation.
+As usual with DGLAP evolution, the photon parton density at a starting scale 
+$\gamma(z,Q_0^2)$ needs to be specified. While \cite{Martin:2004dh,Martin:2014nqa} present model approaches, in Ref.\cite{Ball:2013hta} an ambitious attempt to
+obtain $\gamma(z,Q_0^2)$ from a fit to experimental data is found.
+Preliminary work by the CTEQ collaboration \cite{Schmidt:2014aba} is
+also based on QED corrected DGLAP equations,
+and attempts to fit the photon distribution from the prompt photon
+production $e p \to \gamma e X$ at HERA
+where in part of the phase space the Compton subprocess $e \gamma \to e \gamma$ contributes.
+
+It should be noted, that in the approach of
+\cite{Martin:2004dh,Martin:2014nqa}, the input distribution $\gamma(z,Q_0^2)$ contains the coherent --or elastic-- contribution with an intact proton in the final state.
+Notice that due to the proton form factors the integral over
+virtualities in the elastic case quickly converges, and the elastic
+contribution is basically independent of $Q_0^2$, as soon as $Q_0^2 \gsim 0.7 \, \rm{GeV}^2$.
+
+
+In the collinear approach the photon-photon contribution
+to inclusive cross section for dilepton production can be written as:
+%
+\begin{equation}
+{d \sigma^{(i,j)} \over d y_1 d y_2 d^2 p_T} 
+= {1 \over 16 \pi^2 (x_1 x_2 s)^2}\sum_{i,j} 
+x_1 \gamma^{(i)}(x_1,\mu^2) 
+x_2 \gamma^{(j)}(x_2,\mu^2)
+\overline{ |{\cal M}_{\gamma \gamma \rightarrow l^+ l^-}|^2 }.
+\label{collinear_factorization_formula}
+\end{equation}
+%
+Here 
+%
+\begin{eqnarray}
+ x_1 &=&  \sqrt{p_T^2 + m_l^2 \over s} 
+\Big( \exp(y_1) + \exp(y_2) \Big) \; , \nonumber \\
+ x_2 &=&  \sqrt{p_T^2 + m_l^2 \over s} 
+\Big( \exp(-y_1) + \exp(-y_2) \Big) \; . 
+\end{eqnarray}
+%%
+Above indices $i$ and $j$ denote $i,j = \rm{el, in}$, i.e. they
+correspond to elastic or inelastic components similarly as for 
+the $k_T$-factorization discussed in section below.
+The factorization scale is chosen as $\mu^2 = m_T^2 = p_T^2 + m_l^2$ (Renat?)
+
+%--------------------------------------------------
+\subsection{$k_T$-factorization approach}
+%--------------------------------------------------
+
+In this approach we start from the Feynman diagrams shown in Fig.\ref{fig:mateusz},
+and exploit the high-energy kinematics.
+Let the four-momenta of incoming protons be denoted $p_A,p_B$. At high energies 
+the proton masses can be neglected, so that $p_A^2 = p_B^2 =0, \,  2 (p_A\cdot p_B) =s$.
+
+
+The photon-fusion production mechanism in leptonic and hadronic reactions
+is in great detail reviewed in \cite{Budnev:1974de}, where also many original
+references can be found. In the most general form, the invariant cross section
+is written as a convolution of density matrices of photons in the beam particles,
+and helicity amplitudes for the $\gamma^* \gamma^* \to l^+ l^-$ process.
+In a high energy limit, where dileptons carry only a small fraction of the 
+total center-of-mass energy, the density-matrix structure can be very much
+simplified, and there emerges a $k_T$-factorization representation of the
+cross section \cite{daSilveira:2014jla}.
+
+The unintegrated photon fluxes introduced in \cite{daSilveira:2014jla}
+can be expressed in terms of the hadronic tensor as 
+%%
+\begin{eqnarray}
+ {\cal{F}}^{{\rm{in.el}}}_{\gamma^* \leftarrow A} (z,\bq) = {\alpha_{\rm{em}}\over \pi}  \, (1-z) \, 
+\Big( {\bq^2 \over \bq^2 + z (M_X^2 - m_A^2) + z^2 m_A^2  }\Big)^2  \, 
+\cdot {p_B^\mu p_B^\nu \over s^2} \, W^{\rm{in,el}}_{\mu \nu}(M_X^2,Q^2) dM_X^2 \, . \nonumber \\
+\end{eqnarray}
+%%
+These unintegrated fluxes enter the cross section for dilepton production as
+%%
+\begin{eqnarray}
+ {d \sigma^{(i,j)} \over dy_1 dy_2 d^2\bp_1 d^2\bp_2} &&=  \int  {d^2 \bq_1 \over \pi \bq_1^2} {d^2 \bq_2 \over \pi \bq_2^2}  
+ {\cal{F}}^{(i)}_{\gamma^*/A}(x_1,\bq_1) \, {\cal{F}}^{(j)}_{\gamma^*/B}(x_2,\bq_2) 
+{d \sigma^*(p_1,p_2;\bq_1,\bq_2) \over dy_1 dy_2 d^2\bp_1 d^2\bp_2} \, , \nonumber \\ 
+\label{eq:kt-fact}
+\end{eqnarray}
+%%
+where the indices $i,j \in \{\rm{el}, \rm{in} \}$ denote elastic or inelastic final states.
+The longitudinal momentum fractions of photons are obtained from the rapidities 
+and transverse momenta of final state leptons as:
+%%
+\begin{eqnarray}
+x_1 &=& \sqrt{ {\bp_1^2 + m_l^2 \over s}} e^{y_1} +  \sqrt{ {\bp_2^2 +
+    m_l^2 \over s}} e^{y_2} 
+\; , \nonumber \\
+x_2 &=& \sqrt{ {\bp_1^2 + m_l^2 \over s}} e^{-y_1} +  \sqrt{ {\bp_2^2 + m_l^2 \over s}} e^{-y_2} \, .
+\end{eqnarray}
+%%
+The explicit form of the off-shell cross section $d \sigma^*(p_1,p_2;\bq_1,\bq_2)/ dy_1 dy_2 d^2\bp_1 d^2\bp_2$ can be found in
+Refs. \cite{daSilveira:2014jla,Luszczak:2015aoa}. 
+
+
+%-------------------------------------------------------------------------------------------
+\subsection{Structure functions as input for unintegrated fluxes}
+%-------------------------------------------------------------------------------------------
+
+The different parametrizations taken from the literature are labeled as:
+%%
+\begin{itemize} 
+
+ \item ALLM \cite{Abramowicz:1991xz,Abramowicz:1997ms}: This
+   parametrization gives a very good fit to $F_2$ in most of the measured region.
+   
+\item FJLLM \cite{Fiore:2002re}: This parametrization explicitly
+  includes the nucleon resonances and gives an excellent fit of the CLAS data.
+  
+\item SY \cite{Suri:1971yx}: This paramerization of Suri and Yennie
+    from the early 1970's does not include QCD-DGLAP evolution. It is
+    still today often used as one of the defaults in the LPAIR event generator.
+    
+\item SU \cite{Szczurek:1999rd}: A parametrization which concentrates
+   to give a good description at smallish and intermediate $Q^2$ at not too small $x$.
+   A Vector-Meson-Dominance model inspired fit of $F_2$ at low $Q^2$, which is completed by the same NNLO MSTW structure function as above at large $Q^2$.
+   
+\item LUX-like: a newly constructed parametrization, which at $Q^2 > 9 \, \rm{GeV}^2$ uses an NNLO calculation of $F_2$ and $F_L$ from NNLO MSTW 2008 partons \cite{Martin:2009iq}. 
+It employs a useful code by the MSTW group \cite{Martin:2009iq} to calculate structure functions. At $Q^2 > 9 \, \rm{GeV}^2$ this fit uses the parametrization of Bosted and Christy \cite{Bosted:2007xd} in the resonance region, and a version of the ALLM fit published by the HERMES Collaboration \cite{Airapetian:2011nu} for the continuum
+region. It also uses information on the longitudinal structure function from SLAC \cite{Abe:1998ym}. As the fit is constructed closely following
+the LUXqed work Ref.\cite{Manohar:2017eqh}.
+\end{itemize} 
+	
