@@ -18,7 +18,6 @@ and the following parameterization is used~\cite{Budnev:1974de}:
 \right)~,
 \end{equation}
 where $A = 1+\frac{Q_0^2(1-x)}{x m_p^2}$ and $Q_0^2 = 0.71$~\GeV$^2$. This parameterization is a good analytical approximation of Eq.~\ref{proton_el_flux} integrated over $Q^2$.
-
 The results for the elastic case are cross-checked with the calculation from STARlight MC and a good agreement between the fiducial cross-sections is found:
 $\sigma_{fid}^{\textrm{el}} = 17.5$~nb, whereas $\sigma_{fid}^{\textrm{STARlight}} = 17.0$~nb.
 Both calculations are also corrected by a factor $S^2=0.96$ which 
@@ -28,7 +27,10 @@ is calculated using STARlight, where the hard-sphere proton--nucleus requirement
 Next, for the inelastic case ($\gamma p\rightarrow \ell^+\ell^- + X$), several recent parameterizations of the photon parton distributions are studied: CT14qed~\cite{Schmidt:2015zda}, HKR16qed~\cite{Harland-Lang:2016kog}, LUXqed17~\cite{Manohar:2017eqh} and NNPDF3.1luxQED~\cite{Bertone:2017bme}. 
 One should note that all of these PDF sets include both elastic and inelastic parts of the photon spectrum.
 All predictions are scaled by $S^2=0.95$, again derived from STARlight.
+The integrated fiducial cross-sections for $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production at $\sqrt{s_{N N}} = 8.16$~\TeV\ for different collinear photon PDF sets are summarized in Tab.~\ref{fig:xs}.
 Comparison of several lepton kinematic distributions between different photon-PDFs is shown in Fig.~\ref{fig:inc_cut}.
+All photon PDF parameterizations agree within 10\% with each other.
+The small differences are mainly due to overall PDF normalization, as no change in the shape of various kinematic distributions is observed.
 
 %\begin{figure}[h!]
 %\includegraphics[width=0.4\textwidth]{figures/Mll_elastic.pdf}
@@ -83,11 +85,9 @@ Four differential distributions are shown (from top to bottom): invariant mass o
 \label{fig:inc_cut}
 \end{figure}
 
-The integrated fiducial cross-sections are summarized in Tab.~\ref{fig:xs}.
 
-(some discussion here...)
 
-\begin{table}[b]
+\begin{table}[t]
 \begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
@@ -118,6 +118,6 @@ For comparison, the cross section for purely elastic contribution is also shown.
 \label{fig:xs}
 \end{table}
 
-It should be made clear, that the calculations with collinear photons (at lowest order) produce leptons that are back-to-back in transverse kinematics. Therefore, to take the effect of inelastic photon virtuality into account, a dedicated parton shower algorithm should be used.
+It should be made clear, that the calculations with collinear photons (at lowest order) produce leptons that are back-to-back in transverse kinematics. Therefore, to take the effect of inelastic photon virtuality into account, a dedicated parton shower algorithm can be used.
 
-(mention we don't want to do extra PS; we would rather stick to kt factorization)
+%(mention we don't want to do extra PS; we would rather stick to kt factorization)

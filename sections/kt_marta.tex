@@ -2,65 +2,68 @@
 \section{Results including photon transverse momentum}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %------------------------------------------------------------------------------------
-%\begin{table}
 
-\begin{table}[tbp]
-\begin{scriptsize}
+%-------------------------------------------------------------------------------------------
+%\subsection{Structure functions as input for unintegrated fluxes}
+%-------------------------------------------------------------------------------------------
+
+Several different parametrizations of proton strucure functions are used. Those are labeled as:
+%%
+\begin{itemize} 
+
+ \item ALLM \cite{Abramowicz:1991xz,Abramowicz:1997ms}: This parametrization gives a good fit to $F_2$ in most of the measured regions.
+   
+\item FJLLM \cite{Fiore:2002re}: This parametrization explicitly includes the nucleon resonances and provides very good descripton of the CLAS data~\cite{Osipenko:2003bu}.
+  
+\item SY \cite{Suri:1971yx}: This parameterization of Suri and Yennie from the early 1970's does not include DGLAP evolution. It is still  used as one of the defaults in the LPAIR event generator~\cite{Vermaseren:1982cz}.
+    
+\item SU \cite{Szczurek:1999rd}: A parametrization which concentrates to give a good description at smal and intermediate $Q^2$ at not too small $x$.
+% A Vector-Meson-Dominance model inspired fit of $F_2$ at low $Q^2$, which is 
+At large $Q^2$, it is complemented by the NNLO calculation of $F_2$ and $F_L$ from NNLO MSTW 2008 PDF analysis~\cite{Martin:2009iq}.
+   
+\item LUX-like: a recently constructed parametrization, described in details in Ref.~\cite{Luszczak:2018ntp}.
+% which at $Q^2 > 9 \, \rm{GeV}^2$ uses an NNLO calculation of $F_2$ and $F_L$ from NNLO MSTW 2008 PDF analysis~\cite{Martin:2009iq}. 
+%It employs a useful code by the MSTW group \cite{Martin:2009iq} to calculate structure functions. 
+%At $Q^2 > 9 \, \rm{GeV}^2$ this fit uses the parametrization of Bosted and Christy \cite{Bosted:2007xd} in the resonance region, and a version of the ALLM fit published by the HERMES Collaboration \cite{Airapetian:2011nu} for the continuum
+%region. It also uses information on the longitudinal structure function from SLAC \cite{Abe:1998ym}. 
+This setup closely follows the LUXqed work from Ref.\cite{Manohar:2017eqh}.
+\end{itemize} 
 
 
+
+
+Table~\ref{tab:kt} shows
+
+
+
+\begin{table}[t]
+%\begin{scriptsize}
 \centering
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|l|c|c|c|}
 \hline
-contribution               &  $\sqrt{s}_{NN}$ = 8.16 TeV & $\sqrt{s}_{NN}$ = 8.16 TeV \\
+Contribution  &  $p_{T}^{\ell}>4~\GeV$ & $p_{T}^{\ell}>4~\GeV$, $|\eta^{\ell}|<2.4 $, $m_{\ell^+\ell^-}>10~\GeV$ \\
 \hline
-  &  without cuts & $p_{T}>4 ~~GeV$, $|y|<2.4 $, $M_{l^+l^-}>10 ~~GeV$ \\
-
+$\gamma^{p}_{\rm{el}}$   & 47,89 nb  & 18.26 nb \\
 \hline
-        LUX-like  F2+FL                 &      \\
-
-$\gamma_{in} \gamma_{el}$  & 42.57    & 17.07\\
-
+$\gamma^{p}_{\rm{inel}}$ [LUX-like  F2+FL]  & 42.57 nb    & 17.07 nb\\
 \hline
-        LUX-like  F2                &       \\
-
-$\gamma_{in} \gamma_{el}$  & 43.58   &  17.44\\
-
-
+$\gamma^{p}_{\rm{inel}}$ [LUX-like  F2]  & 43.58 nb  &  17.44 nb\\
+\hline    
+$\gamma^{p}_{\rm{inel}}$ [ALLM97 F2]  & 41.72 nb   &16.43 nb\\
 \hline
-      ALLM97 F2          &   \\
-
-      
-$\gamma_{in} \gamma_{el}$  & 41.72    &16.43\\
-
+$\gamma^{p}_{\rm{inel}}$ [FJLLM F2]  & 45.24 nb  &18.36 nb\\
 \hline
-      Fiore et al.\\(parametrization of JLAB data)    & \\
-
-$\gamma_{in} \gamma_{el}$  & 45.24  &18.36\\
+$\gamma^{p}_{\rm{inel}}$ [SU F2]  & 41.72  nb &16.70 nb\\
+\hline 
+$\gamma^{p}_{\rm{inel}}$ [SY F2]  & 40.38  nb  &15.99 nb\\
 \hline
-      SU F2      &        \\
-
-      
-$\gamma_{in} \gamma_{el}$  & 41.72   &16.70\\
-\hline
-      SY F2      &         \\
-
-      
-$\gamma_{in} \gamma_{el}$  & 40.38    &15.99\\
-
-\hline
-    Elastic- Elastic&               \\
-$\gamma_{el} \gamma_{el}$   & 47,89  & 18.26  \\
-
-
-
-\hline
-
 \end{tabular}
-\caption{Cross sections (in $n b$) for different contributions 
-and different structure functions: LUX-like, ALLM97, Fiore, SU and SY.
-(the cross section was scaled by factors: 0.96 (elastic-elastic); 0.95 (elastic-inelastic) for proton-ion absorption (multiple interactions))
+\caption{Integrated fiducial cross sections for inelastic $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production at $\sqrt{s_{N N}} = 8.16$~\TeV\ for different strucure functions. 
+An effect of applying only $p_T^{\ell}$ requirement is shown in second column.
+%For comparison, the cross section for purely elastic contribution is also shown.
 }
-\end{scriptsize}
+%\end{scriptsize}
+\label{tab:kt}
 \end{table}
 
 
