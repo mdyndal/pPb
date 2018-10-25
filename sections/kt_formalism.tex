@@ -1,0 +1,83 @@
+
+
+%--------------------------------------------------
+\subsection{$k_T$-factorization approach}
+%--------------------------------------------------
+
+In this approach we start from the Feynman diagrams shown in Fig.\ref{fig:mateusz},
+and exploit the high-energy kinematics.
+Let the four-momenta of incoming protons be denoted $p_A,p_B$. At high energies 
+the proton masses can be neglected, so that $p_A^2 = p_B^2 =0, \,  2 (p_A\cdot p_B) =s$.
+
+
+The photon-fusion production mechanism in leptonic and hadronic reactions
+is in great detail reviewed in \cite{Budnev:1974de}, where also many original
+references can be found. In the most general form, the invariant cross section
+is written as a convolution of density matrices of photons in the beam particles,
+and helicity amplitudes for the $\gamma^* \gamma^* \to l^+ l^-$ process.
+In a high energy limit, where dileptons carry only a small fraction of the 
+total center-of-mass energy, the density-matrix structure can be very much
+simplified, and there emerges a $k_T$-factorization representation of the
+cross section \cite{daSilveira:2014jla}.
+
+The unintegrated photon fluxes introduced in \cite{daSilveira:2014jla}
+can be expressed in terms of the hadronic tensor as 
+%%
+\begin{eqnarray}
+ {\cal{F}}^{{\rm{in.el}}}_{\gamma^* \leftarrow A} (z,\bq) = {\alpha_{\rm{em}}\over \pi}  \, (1-z) \, 
+\Big( {\bq^2 \over \bq^2 + z (M_X^2 - m_A^2) + z^2 m_A^2  }\Big)^2  \, 
+\cdot {p_B^\mu p_B^\nu \over s^2} \, W^{\rm{in,el}}_{\mu \nu}(M_X^2,Q^2) dM_X^2 \, . \nonumber \\
+\end{eqnarray}
+%%
+These unintegrated fluxes enter the cross section for dilepton production as
+%%
+\begin{eqnarray}
+ {d \sigma^{(i,j)} \over dy_1 dy_2 d^2\bp_1 d^2\bp_2} &&=  \int  {d^2 \bq_1 \over \pi \bq_1^2} {d^2 \bq_2 \over \pi \bq_2^2}  
+ {\cal{F}}^{(i)}_{\gamma^*/A}(x_1,\bq_1) \, {\cal{F}}^{(j)}_{\gamma^*/B}(x_2,\bq_2) 
+{d \sigma^*(p_1,p_2;\bq_1,\bq_2) \over dy_1 dy_2 d^2\bp_1 d^2\bp_2} \, , \nonumber \\ 
+\label{eq:kt-fact}
+\end{eqnarray}
+%%
+where the indices $i,j \in \{\rm{el}, \rm{in} \}$ denote elastic or inelastic final states.
+The longitudinal momentum fractions of photons are obtained from the rapidities 
+and transverse momenta of final state leptons as:
+%%
+\begin{eqnarray}
+x_1 &=& \sqrt{ {\bp_1^2 + m_l^2 \over s}} e^{y_1} +  \sqrt{ {\bp_2^2 +
+    m_l^2 \over s}} e^{y_2} 
+\; , \nonumber \\
+x_2 &=& \sqrt{ {\bp_1^2 + m_l^2 \over s}} e^{-y_1} +  \sqrt{ {\bp_2^2 + m_l^2 \over s}} e^{-y_2} \, .
+\end{eqnarray}
+%%
+The explicit form of the off-shell cross section $d \sigma^*(p_1,p_2;\bq_1,\bq_2)/ dy_1 dy_2 d^2\bp_1 d^2\bp_2$ can be found in
+Refs. \cite{daSilveira:2014jla,Luszczak:2015aoa}. 
+
+
+%-------------------------------------------------------------------------------------------
+\subsection{Structure functions as input for unintegrated fluxes}
+%-------------------------------------------------------------------------------------------
+
+The different parametrizations taken from the literature are labeled as:
+%%
+\begin{itemize} 
+
+ \item ALLM \cite{Abramowicz:1991xz,Abramowicz:1997ms}: This
+   parametrization gives a very good fit to $F_2$ in most of the measured region.
+   
+\item FJLLM \cite{Fiore:2002re}: This parametrization explicitly
+  includes the nucleon resonances and gives an excellent fit of the CLAS data.
+  
+\item SY \cite{Suri:1971yx}: This paramerization of Suri and Yennie
+    from the early 1970's does not include QCD-DGLAP evolution. It is
+    still today often used as one of the defaults in the LPAIR event generator.
+    
+\item SU \cite{Szczurek:1999rd}: A parametrization which concentrates
+   to give a good description at smallish and intermediate $Q^2$ at not too small $x$.
+   A Vector-Meson-Dominance model inspired fit of $F_2$ at low $Q^2$, which is completed by the same NNLO MSTW structure function as above at large $Q^2$.
+   
+\item LUX-like: a newly constructed parametrization, which at $Q^2 > 9 \, \rm{GeV}^2$ uses an NNLO calculation of $F_2$ and $F_L$ from NNLO MSTW 2008 partons \cite{Martin:2009iq}. 
+It employs a useful code by the MSTW group \cite{Martin:2009iq} to calculate structure functions. At $Q^2 > 9 \, \rm{GeV}^2$ this fit uses the parametrization of Bosted and Christy \cite{Bosted:2007xd} in the resonance region, and a version of the ALLM fit published by the HERMES Collaboration \cite{Airapetian:2011nu} for the continuum
+region. It also uses information on the longitudinal structure function from SLAC \cite{Abe:1998ym}. As the fit is constructed closely following
+the LUXqed work Ref.\cite{Manohar:2017eqh}.
+\end{itemize} 
+	
