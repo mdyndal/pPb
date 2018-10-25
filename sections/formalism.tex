@@ -3,58 +3,59 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %-------------------------------------
-\subsection{Elastic vertices}
+\subsection{Elastic photon fluxes}
 %-------------------------------------
-In this work we are only interested in the elastic vertices on the nucleus side.
+%In this work we are only interested in the elastic vertices on the nucleus side.
 
-We recall, that for the proton, we can express the photon flux through
-the electric and magnetic form factors $G_E(Q^2)$ and $G_M(Q^2)$ of the proton:
+To get the distribution of the elastic photons from the proton, one can express the equivalent photon flux through
+the electric and magnetic form factors $G_E(Q^2)$ and $G_M(Q^2)$ of the proton.
+%%
+%\begin{eqnarray}
+%W^{\rm el}_T(M_X^2,Q^2) = \delta(M_X^2 - m_p^2) \, Q^2 G^2_M(Q^2) \, , \, W^{\rm el}_L(M_X^2, Q^2) = \delta(M_X^2 - m_p^2) 4m_p^2 G^2_E(Q^2) \, . 
+%\end{eqnarray}
+%%
+This contribution is obtained as
 %%
 \begin{eqnarray}
-W^{\rm el}_T(M_X^2,Q^2) = \delta(M_X^2 - m_p^2) \, Q^2 G^2_M(Q^2) \, , \, W^{\rm el}_L(M_X^2, Q^2) = \delta(M_X^2 - m_p^2) 4m_p^2 G^2_E(Q^2) \, . 
+  \gamma^{p}_{el}(x,Q^2) = \frac{\alpha_{\rm{em}}}{\pi}
+\Big[ \Big( 1- {x \over 2} \Big)^2 \, {4 m_p^2 G_E^2(Q^2) + Q^2 G_M^2(Q^2) \over 4m_p^2 + Q^2} + {x^2 \over 4} G_M^2(Q^2) \Big]~,
+\label{proton_el_flux}
 \end{eqnarray}
 %%
-The contribution to the photon flux is then again obtained by contracting
-%%
-\begin{eqnarray}
-  {p^\mu p^\nu \over s^2} \, W^{\rm el}_{\mu \nu}(M_X^2,Q^2) = \delta(M_X^2 - m_p^2) 
-\Big[ \Big( 1- {z \over 2} \Big)^2 \, {4 m_p^2 G_E^2(Q^2) + Q^2 G_M^2(Q^2) \over 4m_p^2 + Q^2} + {z^2 \over 4} G_M^2(Q^2) \Big]
-\nonumber \\
-\end{eqnarray}
-%%
-For the nucleus, we follow \cite{Budnev:1974de}, and replace 
+where $x$ is the momentum fraction of the proton taken by the photon, $Q^2$ is the photon virtuality, $\alpha_{\rm{em}}$ is the electromagnetic structure constant and $m_p$ is the proton mass.
+
+To express the elastic photon flux for the nucleus, we follow Ref.~\cite{Budnev:1974de} and replace 
 %%%
 \begin{eqnarray}
- {4 m_p^2 G_E^2(Q^2) + Q^2 G_M^2(Q^2) \over 4m_p^2 + Q^2} \longrightarrow Z^2 F_{\rm em}^2(Q^2) \, .
+ {4 m_p^2 G_E^2(Q^2) + Q^2 G_M^2(Q^2) \over 4m_p^2 + Q^2} \longrightarrow Z^2 F_{\rm em}^2(Q^2)~,
  \end{eqnarray}
 %%%
-We neglect the magnetic form factor in the following. (It even rigorously vanishes for spinless nuclei.)
+where $F_{\rm em}(Q^2)$ is the electromagnetic formfactor of the nucleus and $Z$ is its charge.
+We also neglect the magnetic formfactor of the ion in the following (it even rigorously vanishes for spinless nuclei).
 
-For the $^{208}\rm{Pb}$ nucleus, we use the realistic formfactor from the STARLIGHT MC.
+For the Pb nucleus, we use the formfactor parameterization from the STARlight MC generator~\cite{Klein:2016yzr}:
 %%
 \begin{eqnarray}
- F_{\rm em}(Q^2) = {3 \over (QR_A)^3}\Big\{ \sin(QR_A) - QR_A \cos(QR_A) \Big\} { 1 \over 1 + a^2 Q^2} \, .
+ F_{\rm em}(Q^2) = {3 \over (QR_A)^3}\Big[ \sin(QR_A) - QR_A \cos(QR_A) \Big] { 1 \over 1 + a^2 Q^2}~,
 \end{eqnarray}
 %%%
-Here 
-\begin{eqnarray}
-R_A = 1.1 A^{1/3} \, {\rm fm} \, , \, a = 0.7 \, {\rm fm}, \, Q = \sqrt{Q^2} \,  .
-\end{eqnarray}
+where $R_A = 1.1 A^{1/3}$ fm, $a = 0.7$ fm and $Q = \sqrt{Q^2}$.
 %%%
-Therefore we obtain the elastic flux
-\begin{eqnarray}
-{\cal{F}}^{{\rm{el}}}_{\gamma^* \leftarrow A} (z,\bq) = {Z^2 \alpha_{\rm{em}}\over \pi}  \, (1-z) \, 
-\Big( {\bq^2 \over \bq^2 + z (M_X^2 - m_A^2) + z^2 m_A^2  }\Big)^2 \, F^2_{\rm em}(Q^2)
-\, . \nonumber \\
-\end{eqnarray}
-%%
-For $^{208}Pb$ the charge is $Z=82$.
+
+%Therefore we obtain the elastic flux
+%\begin{eqnarray}
+%{\cal{F}}^{{\rm{el}}}_{\gamma^* \leftarrow A} (z,\bq) = {Z^2 \alpha_{\rm{em}}\over \pi}  \, (1-z) \, 
+%\Big( {\bq^2 \over \bq^2 + z (M_X^2 - m_A^2) + z^2 m_A^2  }\Big)^2 \, F^2_{\rm em}(Q^2)
+%\, . \nonumber \\
+%\end{eqnarray}
+%%%
+%For $^{208}Pb$ the charge is $Z=82$.
 
 %----------------------------------------
 \subsection{Inelastic vertices}
 %----------------------------------------
 
-We consider the inelastic processes with breakup of a proton. 
+We also consider the inelastic processes with breakup of a proton. 
 Then the hadronic tensor is expressed in terms of the electromagnetic currents as:
 %%
 \begin{eqnarray}
