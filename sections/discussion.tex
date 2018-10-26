@@ -1,8 +1,34 @@
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 We take the opportunity to calculate expected number of events for realistic assumption on total integrated luminosity.
-based on the previous $p\textrm{Pb}$ runs at the LHC, we assume  $\int Ldt= 200~\textrm{nb}^{-1}$.
+Based on the previous $p\textrm{Pb}$ runs at the LHC, we assume  $\int Ldt= 200~\textrm{nb}^{-1}$.
+We also assume possible experimental efficiencies, manily due to trigger and recontruction of leptons, which we embed in a single correction factor $C=0.7$.
 
-(show some table(s) here)
+Table~\ref{fig:numbers} shows the expected number of events for $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production at $\sqrt{s_{N N}} = 8.16$~\TeV\ and configuration described above. 
+Approximately 2500 elastic dilepton events are expected. 
+Depending on the calculations, 3900 (collinear with LUXqed17 PDF) or 2400 ($k_T$-factorization with LUX-like $F_2+F_L$) inelastic events (reconstructed) are predicted. The difference between collinear and $k_T$-factorization can be therefore constrained with large significance, using existing datasets collected by ATLAS and CMS.
+
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+Contribution & Expected events ($C=1$) & Expected events ($C=0.7$) \\
+\hline
+%$\gamma^{p}_{\rm{el}}$ [$b_{min}=0.7fm$] & 45.5(2) nb & 17.3(1) nb\\
+%\hline
+$\gamma^{p}_{\rm{el}}$  & 3600 & 2500\\ % [Electric]
+\hline
+$\gamma^{p}_{\rm{inel}}$ [LUXqed17 collinear] & 5600 & 3900 \\
+\hline
+$\gamma^{p}_{\rm{inel}}$ [LUX-like $F_2+F_L$] & 3400 & 2400 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Expected number of events for $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production at $\sqrt{s_{N N}} = 8.16$~\TeV\ assuming $\int Ldt= 200~\textrm{nb}^{-1}$. 
+Shown are several contributions: purely elastic, inelastic with collinear LUXqed17 PDF and inelastic with $k_T$-factorization and LUX-like $F_2+F_L$ proton structure function parameterization.
+An effect of possible experimental efficiencies is shown in last column.}
+\label{fig:numbers}
+\end{table}
