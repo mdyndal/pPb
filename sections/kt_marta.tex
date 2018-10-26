@@ -29,7 +29,12 @@ At large $Q^2$, it is complemented by the NNLO calculation of $F_2$ and $F_L$ fr
 This setup closely follows the LUXqed work from Ref.\cite{Manohar:2017eqh}.
 \end{itemize} 
 
-
+To model $\gamma^{p}_{el}(x, Q^2)$ we use Eq.~\ref{proton_el_flux} with so-called dipole parametrization of the proton formfactors:
+\begin{eqnarray}
+G_E(Q^2) &=& \left( 1+\frac{Q^2}{0.71 GeV^2} \right)^{-2} \\
+G_M(Q^2) &=& \mu_p G_E(Q^2)~,
+\end{eqnarray}
+where $\mu_p$ is the proton magnetic moment.
 
 Table~\ref{tab:kt} shows the comparison of integrated fiducial cross sections for inelastic $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production at $\sqrt{s_{N N}} = 8.16$~\TeV\ for different proton structure functions used.
 All structure functions provide similar fiducial cross-section, at the level of 16--18 nb.
@@ -69,7 +74,7 @@ $\gamma^{p}_{\rm{inel}}$ [SY $F_2$]  & 40.38  nb  &15.99 nb\\
 \hline
 \end{tabular}
 \caption{Integrated fiducial cross sections for inelastic $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production at $\sqrt{s_{N N}} = 8.16$~\TeV\ for different structure functions. 
-An effect of applying only $p_T^{\ell}$ requirement is shown in second column.
+The effect of applying only $p_T^{\ell}$ requirement is shown in second column.
 %For comparison, the cross section for purely elastic contribution is also shown.
 }
 %\end{scriptsize}
