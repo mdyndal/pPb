@@ -31,7 +31,8 @@ To express the elastic photon flux for the nucleus ($\gamma^{\rm Pb}_{el}$), we 
  \end{eqnarray}
 %%%
 where $F_{\rm em}(Q^2)$ is the electromagnetic formfactor of the nucleus and $Z$ is its charge.
-We also neglect the magnetic formfactor of the ion in the following (it even rigorously vanishes for spinless nuclei).
+We also neglect the magnetic formfactor of the ion in the following.
+% (it even rigorously vanishes for spinless nuclei).
 
 For the Pb nucleus, we use the formfactor parameterization from the STARlight MC generator~\cite{Klein:2016yzr}:
 %%
@@ -145,7 +146,7 @@ where $R_A = 1.1 A^{1/3}$ fm, $a = 0.7$ fm and $Q = \sqrt{Q^2}$.
 %standard arguments for factorization apply, and collinear factorization should be an appropriate starting point to calculate e.g. rapidity or transverse momentum spectra of leptons.
 %In fact, the dominant contribution to large-invariant mass dilepton pairs is of course the well known Drell-Yan process, but nothing prevents us from also including photon as partons along with quarks and gluons.
 The inelastic processes, with breakup of a proton, can be also considered.
-At LO and at a given scale $\mu^2$, the photon parton distribution $\gamma^p_{inel}(x,\mu^2)$ of photons carrying a fraction $z$ of the proton's momentum, obeys the DGLAP equation:
+At LO and at a given scale $\mu^2$, the photon parton distribution $\gamma^p_{inel}(x,\mu^2)$ of photons carrying a fraction $x$ of the proton's momentum, obeys the DGLAP equation:
 %%
 \begin{eqnarray}
 {d \gamma^p_{inel}(x,\mu^2) \over d \log \mu^2} =&& {\alpha_{\rm{em}} \over 2 \pi} \int_x^1 {dy \over y} 
@@ -154,10 +155,12 @@ At LO and at a given scale $\mu^2$, the photon parton distribution $\gamma^p_{in
 \end{eqnarray}
 %%
 where $q (x,\mu^2)$ is the quark PDF, $e_q$ is the quark charge, $P_{\gamma \leftarrow q}$ is the $q\rightarrow\gamma$ splitting function, and $P_{\gamma \leftarrow \gamma}$ corresponds to the virtual self-energy correction to the photon propagator.
-This is the basis for collinear photon-PDF determination in all initial~\cite{Gluck:2002fi, Martin:2004dh} and more recent~\cite{Ball:2013hta, Martin:2014nqa, Schmidt:2014aba, Harland-Lang:2016kog, Giuli:2017oii, Manohar:2016nzj, Bertone:2017bme} considerations.
+This is the basis for collinear photon-PDF determination in all initial~\cite{Gluck:2002fi, Martin:2004dh} and more recent~\cite{Ball:2013hta, Martin:2014nqa, Schmidt:2014aba, Harland-Lang:2016kog, Giuli:2017oii, Manohar:2016nzj, Bertone:2017bme} analyses.
 
-However, none of these studies identify the prescription for the choice of the scale $\mu^2$, which is needed to calculate the cross section for the process of interest. 
-The usual choice for $\mu$ is the mass of the system from hard interaction, or the transverse momentum of the leading object.
+In these studies the choice of the scale $\mu^2$, which is needed to calculate the cross section for the process of interest, is often not well-motivated. 
+%The usual choice for $\mu$ is the mass of the system from hard interaction, or the transverse momentum of the leading object.
+The usual choice for $\mu$ is the mass of the system (motivated by the $s$-channel quark--antiquark annihilation process) or the transverse momentum of the leading object. 
+This choices are however not optimal for the $s-$ and $t-$channel initiated photon-induced process.
 By analogy to DIS (Fig.~\ref{fig:diagrams}), where the scale is associated with the virtuality of the exchanged photon, it is possible to define the scale in case of the $\gamma\gamma\rightarrow\ell^+\ell^-$ process.
 This is achieved by taking the virtuality of massive $t$- or $u$-channel propagator (Fig.~\ref{fig:diagrams}b or c).
 Hence, $\mu^2 = -(p^{\gamma^{Pb}}-p^{\ell^-})^2$ for $t$-channel diagram and $\mu^2 = -(p^{\gamma^{Pb}}-p^{\ell^+})^2$ for $u$-channel exchange.
