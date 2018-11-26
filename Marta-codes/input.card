@@ -1,0 +1,21 @@
+NGEN    3000000       ! Number of events to generate
+IEND    3             ! 1=xsec, 3=xsec+events generation
+PROC    3           ! 1=el-el, 2=el-in (protons), 3=in(p)-el(n), 4=in-in
+NPRIN   0
+NCVG    2000000
+NTREAT  1
+ITMX    10
+LEPTON  2             ! 1=electron, 2=muon, 3=tau
+INP1    6500.0
+INP2    2562.2
+PTMIN   4.0
+PTMAX   50.0          ! FIXME not yet implemented !
+YMIN    -2.4
+YMAX    2.4
+MXMAX   1000.0
+MYMAX   1000.0
+Q1TMAX  1000.0
+Q2TMAX  1000.0
+
+
+
