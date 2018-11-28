@@ -1,4 +1,7 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
 
+\begin{document}
 
 %--------------------------------------------------
 \subsection{$k_T$-factorization approach}
@@ -59,26 +62,61 @@ Therefore, to take the effect of transverse momentum smearing into account, a de
 In the $k_T$ factorization approach, one can parametrize the $\gamma^*p \rightarrow X$ vertices in terms of the proton structure functions. The photons from inelastic production have transverse momenta and non-zero virtualities $Q^2$ and the unintegrated photon distributions are used, in contrast to collinear distributions.
 In the DIS limit, the unintegrated inelastic photon flux can be obtained using the following equation~\cite{daSilveira:2014jla, Luszczak:2015aoa}:
 
+%\begin{eqnarray}
+%{d \gamma^p_{inel}(x,Q^2) \over d \log Q^2} =&& {\alpha_{\rm{em}} \over 2 \pi} \int_x^1 {dy \over y} 
+%P_{\gamma \leftarrow q}({x\over y}) 
+%{F_2(y, Q^2) \over y} \left(1- {x\over y}\right)~,
+%\end{eqnarray}
+%where $F_2(x, Q^2)$ is the standard proton structure function, and the splitting function $P_{\gamma \leftarrow q}(x)$ is given as
+%\begin{eqnarray}
+%P_{\gamma \leftarrow q}(x) = {1+(1-x)^2 \over x}
+%\label{kt_factorization_first}
+%\end{eqnarray}
+%%%
 \begin{eqnarray}
-{d \gamma^p_{inel}(x,Q^2) \over d \log Q^2} =&& {\alpha_{\rm{em}} \over 2 \pi} \int_x^1 {dy \over y} 
-P_{\gamma \leftarrow q}({x\over y}) 
-{F_2(y, Q^2) \over y} \left(1- {x\over y}\right)~,
+\gamma^p_{inel}(x,\vec{q}_T) = {1\over z} 
+{1 \over \pi q_T^2} \, \int_{M^2_{\rm thr}} dM_X^2 {\cal{F}}^{\mathrm{in}}_{\gamma^* \leftarrow p} (x,\vec{q}_T,M^2_X) \, ,
 \end{eqnarray}
-where $F_2(x, Q^2)$ is the standard proton structure function, and the splitting function $P_{\gamma \leftarrow q}(x)$ is given as
+%%
+and we use the functions $ {\cal{F}}^{\mathrm{in}}$ from \cite{Budnev,WWpaper}:
+%%%
 \begin{eqnarray}
-P_{\gamma \leftarrow q}(x) = {1+(1-x)^2 \over x}
-\label{kt_factorization_first}
+{\cal{F}}^{\mathrm{in}}_{\gamma^* \leftarrow p} (x,\vec{q}_T) &=& {\alpha_{\rm em} \over \pi} 
+\Big\{(1-x) \Big( {\vec{q}_T^2 \over \vec{q}_T^2 + x (M_X^2 - m_p^2) + x^2 m_p^2  }\Big)^2  
+{F_2(x_{\rm Bj},Q^2) \over Q^2 + M_X^2 - m_p^2}  \nonumber \\
+&+& {x^2 \over 4 x^2_{\rm Bj}}  
+{\vec{q}_T^2 \over \vec{q}_T^2 + x (M_X^2 - m_p^2) + x^2 m_p^2  }
+{2 x_{\rm Bj} F_1(x_{\rm Bj},Q^2) \over Q^2 + M_X^2 - m_p^2} \Big\} \, .
+%\label{eq:flux_in}
 \end{eqnarray}
-
+%%%
+The virtuality $Q^2$ of the photon depends on transverse momentum and the remnant mass $M_X$:
+%%%
+\begin{eqnarray}
+Q^2 =  {\vec{q}_T^2 + x (M_X^2 - m_p^2) + x^2 m_p^2 \over (1-x)} \, ,
+\end{eqnarray}
+%%
+Notice that in (\ref{eq:flux_in}) instead of 
+$F_2(x_{\rm Bj},Q^2),F_1(x_{\rm Bj},Q^2)$, 
+we use in practice the pair $F_2(x_{\rm Bj},Q^2),F_L(x_{\rm Bj},Q^2)$, where
+%%%
+\begin{eqnarray}
+F_L(x_{\rm Bj},Q^2) = \Big( 1 + {4 x_{\rm Bj}^2 m_p^2 \over Q^2} \Big) F_2(x_{\rm Bj},Q^2) - 2 x_{\rm Bj} F_1(x_{\rm Bj},Q^2)
+\end{eqnarray}
+%%%
+is the longitudinal structure function of the proton.
 
 These unintegrated fluxes enter the $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production cross section as
 
 \begin{equation}
-\sigma = S^2 \int dx_p dx_{\rm Pb} d\vec{q_T} \Big[
-\left ( \gamma^{p}_{el}(x_p, Q^2) + \gamma^{p}_{inel}(x_p,Q^2) \right)
+\sigma = S^2 \int dx_p dx_{\rm Pb} d\vec{q}_T \Big[
+\left ( \gamma^{p}_{el}(x_p, Q^2) + \gamma^{p}_{inel}(x_p,\vec{q}_T) \right)
  \gamma^{\rm Pb}_{el}(x_{\rm Pb})
 \sigma_{\gamma^{*}  \gamma \rightarrow \ell^+ \ell^-}(x_p, x_{\rm Pb}, \vec{q_T})  \Big]~,
 \label{kt_factorization_formula}
 \end{equation}
 %
-where $\sigma_{\gamma^{*} \gamma \rightarrow \ell^+ \ell^-}$ is the off-shell elementary cross-section~\cite{daSilveira:2014jla} and $\vec{q_T}^2 = Q^2$.
+where $\sigma_{\gamma^{*} \gamma \rightarrow \ell^+ \ell^-}$ is the off-shell elementary cross-section~\cite{daSilveira:2014jla} and 
+notice that for the elastic case at $x_p \ll 1$ we have $Q^2 \approx \vec{q}_T^2$.
+
+\end{document}
