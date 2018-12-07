@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  7 DEC 2018 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  7 DEC 2018 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,8 +302,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -323,6 +322,7 @@ LaTeX Font Info:    ... okay on input line 43.
 Class revtex4 Info: Patching LaTeX tabular. on input line 43.
 Class revtex4 Info: cite was not loaded (OK!) on input line 43.
 Class revtex4 Info: multicol was not loaded (OK!) on input line 43.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
@@ -369,6 +369,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 43.
 LaTeX Info: Redefining \pageref on input line 43.
 LaTeX Info: Redefining \nameref on input line 43.
+
+(./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -474,10 +476,7 @@ ut line 17.
 Package natbib Warning: Citation `Cms:2018het' on page 2 undefined on input lin
 e 17.
 
-
-LaTeX Warning: Reference `fig:diagrams' on page 2 undefined on input line 22.
-
-<figures/dis_to_photon_v2.pdf, id=31, 455.7025pt x 100.375pt>
+<figures/dis_to_photon_v2.pdf, id=44, 455.7025pt x 100.375pt>
 File: figures/dis_to_photon_v2.pdf Graphic file (type pdf)
 
 <use figures/dis_to_photon_v2.pdf>
