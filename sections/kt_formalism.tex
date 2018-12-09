@@ -70,10 +70,10 @@ In the DIS limit, the unintegrated inelastic photon flux can be obtained using t
 %%%
 \begin{eqnarray}
 \gamma^p_{inel}(x,\vec{q}_T) = {1\over x} 
-{1 \over \pi q_T^2} \, \int_{M^2_{\rm thr}} dM_X^2 {\cal{F}}^{\mathrm{in}}_{\gamma^* \leftarrow p} (x,\vec{q}_T,M^2_X) \, ,
+{1 \over \pi \vec{q}_T^2} \, \int_{M^2_{\rm thr}} dM_X^2 {\cal{F}}^{\mathrm{in}}_{\gamma^* \leftarrow p} (x,\vec{q}_T,M^2_X) \, ,
 \end{eqnarray}
 %%
-and we use the functions $ {\cal{F}}^{\mathrm{in}}$ from \cite{Budnev:1974de, Luszczak:2018ntp}:
+and we use the functions $ {\cal{F}}^{\mathrm{in}}_{\gamma^* \leftarrow p}$ from \cite{Budnev:1974de, Luszczak:2018ntp}:
 %%%
 \begin{eqnarray}
 {\cal{F}}^{\mathrm{in}}_{\gamma^* \leftarrow p} (x,\vec{q}_T) &=& {\alpha_{\rm em} \over \pi} 
@@ -82,24 +82,24 @@ and we use the functions $ {\cal{F}}^{\mathrm{in}}$ from \cite{Budnev:1974de, Lu
 &+& {x^2 \over 4 x^2_{\rm Bj}}  
 {\vec{q}_T^2 \over \vec{q}_T^2 + x (M_X^2 - m_p^2) + x^2 m_p^2  }
 {2 x_{\rm Bj} F_1(x_{\rm Bj},Q^2) \over Q^2 + M_X^2 - m_p^2} \Big\} \, .
-%\label{eq:flux_in}
+\label{eq:flux_in}
 \end{eqnarray}
 %%%
-The virtuality $Q^2$ of the photon depends on transverse momentum and the remnant mass $M_X$:
+The virtuality $Q^2$ of the photon depends on the photon transverse momentum ($\vec{q}_T^2$) and the proton remnant mass ($M_X$):
 %%%
 \begin{eqnarray}
-Q^2 =  {\vec{q}_T^2 + x (M_X^2 - m_p^2) + x^2 m_p^2 \over (1-x)} \, ,
+Q^2 =  {\vec{q}_T^2 + x (M_X^2 - m_p^2) + x^2 m_p^2 \over (1-x)} \, .
+\label{eq:q2}
 \end{eqnarray}
 %%
-and the proton structure functions require the argument
+Moreover, the proton structure functions $F_1(x_{\rm Bj},Q^2)$ and $F_2(x_{\rm Bj},Q^2)$ require the argument
 %%%
 \begin{eqnarray}
 x_{\rm Bj} = {Q^2 \over Q^2+M^2_X -m_p^2}.
 \end{eqnarray}
 %%
-Notice that in (\ref{eq:flux_in}) instead of 
-$F_2(x_{\rm Bj},Q^2),F_1(x_{\rm Bj},Q^2)$, 
-we use in practice the pair $F_2(x_{\rm Bj},Q^2),F_L(x_{\rm Bj},Q^2)$, where
+Note that in Eq.~\ref{eq:flux_in} instead of using $F_2(x_{\rm Bj},Q^2),F_1(x_{\rm Bj},Q^2)$, 
+we use the pair $F_2(x_{\rm Bj},Q^2),F_L(x_{\rm Bj},Q^2)$, where
 %%%
 \begin{eqnarray}
 F_L(x_{\rm Bj},Q^2) = \Big( 1 + {4 x_{\rm Bj}^2 m_p^2 \over Q^2} \Big) F_2(x_{\rm Bj},Q^2) - 2 x_{\rm Bj} F_1(x_{\rm Bj},Q^2)
@@ -107,7 +107,7 @@ F_L(x_{\rm Bj},Q^2) = \Big( 1 + {4 x_{\rm Bj}^2 m_p^2 \over Q^2} \Big) F_2(x_{\r
 %%%
 is the longitudinal structure function of the proton.
 
-These unintegrated fluxes enter the $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production cross section as
+These unintegrated photon fluxes enter the $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production cross section as
 
 \begin{equation}
 \sigma = S^2 \int dx_p dx_{\rm Pb} d\vec{q}_T \Big[
@@ -117,9 +117,7 @@ These unintegrated fluxes enter the $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell
 \label{kt_factorization_formula}
 \end{equation}
 %
-where $\sigma_{\gamma^{*} \gamma \rightarrow \ell^+ \ell^-}$ is the off-shell elementary cross-section~\cite{daSilveira:2014jla} and 
-notice that for the elastic case at $x_p \ll 1$ we have $Q^2 \approx \vec{q}_T^2$.
-The elastic flux can be obtained from eq.(1) after multiplying by
-$(1-x)/(\pi Q^2)$, which takes into account the jacobian from
-$dQ^2/Q^2$ to $d\vec{q}$. Please note also, that while fluxes do not depend on the direction of $\vec{q}$, averaging over directions
-of $\vec{q}$ in the off-shell cross section replaces the average over photon polarizations in the collinear case.
+where $\sigma_{\gamma^{*} \gamma \rightarrow \ell^+ \ell^-}$ is the off-shell elementary cross-section~\cite{daSilveira:2014jla} and  for  $x_p \ll 1$ we have $Q^2 \approx \vec{q}_T^2$ (see Eq.~\ref{eq:q2}).
+%The elastic flux can be obtained from eq.(1) after multiplying by $(1-x)/(\pi Q^2)$, which takes into account the jacobian from $dQ^2/Q^2$ to $d\vec{q}$. 
+One should note that while the fluxes do not depend on the direction of $\vec{q}_T$, averaging over directions
+of $\vec{q}_T$ in the off-shell cross section replaces the average over photon polarizations in the collinear case.
