@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.27)  18 JAN 2019 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.27)  18 JAN 2019 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,70 +862,64 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
- [10] <figures_Marta/Mll-l.pdf, id=1905, 569.12625pt x 435.6275pt>
-File: figures_Marta/Mll-l.pdf Graphic file (type pdf)
+ [10] <figures/Mll-l.pdf, id=1905, 569.12625pt x 435.6275pt>
+File: figures/Mll-l.pdf Graphic file (type pdf)
 
-<use figures_Marta/Mll-l.pdf>
-Package pdftex.def Info: figures_Marta/Mll-l.pdf used on input line 75.
+<use figures/Mll-l.pdf>
+Package pdftex.def Info: figures/Mll-l.pdf used on input line 75.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+ <figures/pt1-l.pdf, id=1906, 569.12625pt x 435.6275pt>
+File: figures/pt1-l.pdf Graphic file (type pdf)
 
-<figures_Marta/pt1-l.pdf, id=1906, 569.12625pt x 435.6275pt>
-File: figures_Marta/pt1-l.pdf Graphic file (type pdf)
-
-<use figures_Marta/pt1-l.pdf>
-Package pdftex.def Info: figures_Marta/pt1-l.pdf used on input line 76.
+<use figures/pt1-l.pdf>
+Package pdftex.def Info: figures/pt1-l.pdf used on input line 76.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+ <figures/Y-l.pdf, id=1907, 569.12625pt x 435.6275pt>
+File: figures/Y-l.pdf Graphic file (type pdf)
 
-<figures_Marta/Y-l.pdf, id=1907, 569.12625pt x 435.6275pt>
-File: figures_Marta/Y-l.pdf Graphic file (type pdf)
-
-<use figures_Marta/Y-l.pdf>
-Package pdftex.def Info: figures_Marta/Y-l.pdf used on input line 77.
+<use figures/Y-l.pdf>
+Package pdftex.def Info: figures/Y-l.pdf used on input line 77.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+ <figures/y1-l.pdf, id=1908, 569.12625pt x 435.6275pt>
+File: figures/y1-l.pdf Graphic file (type pdf)
 
-<figures_Marta/y1-l.pdf, id=1908, 569.12625pt x 435.6275pt>
-File: figures_Marta/y1-l.pdf Graphic file (type pdf)
-
-<use figures_Marta/y1-l.pdf>
-Package pdftex.def Info: figures_Marta/y1-l.pdf used on input line 78.
+<use figures/y1-l.pdf>
+Package pdftex.def Info: figures/y1-l.pdf used on input line 78.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures_Marta/pt-sum-l.pdf, id=1909, 569.12625pt x 435.6275pt>
-File: figures_Marta/pt-sum-l.pdf Graphic file (type pdf)
+<figures/pt-sum-l.pdf, id=1909, 569.12625pt x 435.6275pt>
+File: figures/pt-sum-l.pdf Graphic file (type pdf)
 
-<use figures_Marta/pt-sum-l.pdf>
-Package pdftex.def Info: figures_Marta/pt-sum-l.pdf used on input line 91.
+<use figures/pt-sum-l.pdf>
+Package pdftex.def Info: figures/pt-sum-l.pdf used on input line 91.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
-<figures_Marta/phi-l.pdf, id=1910, 569.12625pt x 435.6275pt>
-File: figures_Marta/phi-l.pdf Graphic file (type pdf)
-
-<use figures_Marta/phi-l.pdf>
-Package pdftex.def Info: figures_Marta/phi-l.pdf used on input line 92.
-(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures_Marta/MX-l.pdf, id=1911, 569.12625pt x 435.6275pt>
-File: figures_Marta/MX-l.pdf Graphic file (type pdf)
-
-<use figures_Marta/MX-l.pdf>
-Package pdftex.def Info: figures_Marta/MX-l.pdf used on input line 105.
+<figures/phi-l.pdf, id=1910, 569.12625pt x 435.6275pt>
+File: figures/phi-l.pdf Graphic file (type pdf)
+ <use figures/phi-l.pdf>
+Package pdftex.def Info: figures/phi-l.pdf used on input line 92.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./sections/discussion.tex [11] [12 <./figures_Marta/Mll-l.pdf, page is rotat
-ed 90 degrees> <./figures_Marta/pt1-l.pdf, page is rotated 90 degrees> <./figur
-es_Marta/Y-l.pdf, page is rotated 90 degrees> <./figures_Marta/y1-l.pdf, page i
-s rotated 90 degrees>] [13 <./figures_Marta/pt-sum-l.pdf, page is rotated 90 de
-grees> <./figures_Marta/phi-l.pdf, page is rotated 90 degrees> <./figures_Marta
-/MX-l.pdf, page is rotated 90 degrees>]
+<figures/MX-l.pdf, id=1911, 569.12625pt x 435.6275pt>
+File: figures/MX-l.pdf Graphic file (type pdf)
+ <use figures/MX-l.pdf>
+Package pdftex.def Info: figures/MX-l.pdf used on input line 105.
+(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./sections/discussion.tex [11] [12 <./figures/Mll-l.pdf, page is rotated 90 
+degrees> <./figures/pt1-l.pdf, page is rotated 90 degrees> <./figures/Y-l.pdf, 
+page is rotated 90 degrees> <./figures/y1-l.pdf, page is rotated 90 degrees>]
+[13 <./figures/pt-sum-l.pdf, page is rotated 90 degrees> <./figures/phi-l.pdf, 
+page is rotated 90 degrees> <./figures/MX-l.pdf, page is rotated 90 degrees>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 28.
@@ -1019,8 +1013,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B54A8286B8E797C99C002DBDEE8ADA79;821.
  ) 
 Here is how much of TeX's memory you used:
- 15277 strings out of 493109
- 252913 string characters out of 6125602
+ 15276 strings out of 493109
+ 252731 string characters out of 6125602
  350180 words of memory out of 5000000
  18382 multiletter control sequences out of 15000+600000
  21305 words of font info for 79 fonts, out of 8000000 for 9000
@@ -1050,7 +1044,7 @@ fs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti12.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/201
 4/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb>
-Output written on main.pdf (20 pages, 990751 bytes).
+Output written on main.pdf (20 pages, 990710 bytes).
 PDF statistics:
  2810 PDF objects out of 2984 (max. 8388607)
  2147 compressed objects within 22 object streams
