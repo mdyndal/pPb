@@ -3,9 +3,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %------------------------------------------------------------------------------------
 
-%-------------------------------------------------------------------------------------------
-%\subsection{Structure functions as input for unintegrated fluxes}
-%-------------------------------------------------------------------------------------------
 
 Several different parametrizations of proton strucure functions are used. Those are labeled as:
 %%
@@ -13,19 +10,13 @@ Several different parametrizations of proton strucure functions are used. Those 
 
  \item ALLM \cite{Abramowicz:1991xz,Abramowicz:1997ms}: This parametrization gives a good fit to $F_2$ in most of the measured regions.
    
-%\item FJLLM \cite{Fiore:2002re}: This parametrization explicitly includes the nucleon resonances and provides very good descripton of the CLAS data~\cite{Osipenko:2003bu}.
   
 \item SY \cite{Suri:1971yx}: This parameterization of Suri and Yennie from the early 1970's does not include DGLAP evolution. It is still  used as one of the defaults in the LPAIR event generator~\cite{Vermaseren:1982cz}.
     
 \item SU \cite{Szczurek:1999rd}: A parametrization which concentrates to give a good description at small and intermediate $Q^2$ for $x > 0.01$.
-% A Vector-Meson-Dominance model inspired fit of $F_2$ at low $Q^2$, which is 
 At large $Q^2$, it is complemented by the NNLO calculation of $F_2$ and $F_L$ from NNLO MSTW 2008 PDF analysis~\cite{Martin:2009iq}.
    
 \item LUX-like: a recently constructed parametrization, described in details in Ref.~\cite{Luszczak:2018ntp}.
-% which at $Q^2 > 9 \, \rm{GeV}^2$ uses an NNLO calculation of $F_2$ and $F_L$ from NNLO MSTW 2008 PDF analysis~\cite{Martin:2009iq}. 
-%It employs a useful code by the MSTW group \cite{Martin:2009iq} to calculate structure functions. 
-%At $Q^2 > 9 \, \rm{GeV}^2$ this fit uses the parametrization of Bosted and Christy \cite{Bosted:2007xd} in the resonance region, and a version of the ALLM fit published by the HERMES Collaboration \cite{Airapetian:2011nu} for the continuum
-%region. It also uses information on the longitudinal structure function from SLAC \cite{Abe:1998ym}. 
 This setup closely follows the LUXqed work from Ref.\cite{Manohar:2017eqh}.
 \end{itemize} 
 
@@ -40,7 +31,6 @@ Table~\ref{tab:kt} shows the comparison of integrated fiducial cross sections fo
 All structure functions provide similar fiducial cross-section, at the level of 16--18 nb.
 These inelastic cross-sections are also similar in size to the elastic contribution (18 nb) and are slightly lower than the numbers from collinear analysis, subtracted for elastic part (see Table~\ref{fig:xs}).
 A comparison is also made with LUX-like parametrization when the longitudinal structure function ($F_L$) is explicitly considered.
-% in Eq.~\ref{kt_factorization_first}. 
 This leads to the decrease of the cross section by 2\%, similarly to Ref.~\cite{Luszczak:2018ntp}.
 
 Figure~\ref{fig:kt_figures1} presents differential cross sections for several lepton kinematic distributions: invariant mass of lepton pair, leading lepton transverse momentum, lepton pseudorapidity difference and leading lepton pseudorapidity.
@@ -54,7 +44,6 @@ With $k_T$-factorization, one can also calculate the mass of the proton remnants
 
 
 \begin{table}[t]
-%\begin{scriptsize}
 \centering
 \begin{tabular}{|l|c|c|c|}
 \hline
@@ -68,8 +57,6 @@ $\gamma^{p}_{\rm{inel}}$ [LUX-like  $F_2+F_L$]  & 42.6 nb    & 17.1 nb\\
 \hline    
 $\gamma^{p}_{\rm{inel}}$ [ALLM97 $F_2$]  & 41.7 nb   &16.4 nb\\
 \hline
-%$\gamma^{p}_{\rm{inel}}$ [FJLLM $F_2$]  & 45.24 nb  &18.36 nb\\
-%\hline
 $\gamma^{p}_{\rm{inel}}$ [SU $F_2$]  & 41.7  nb &16.7 nb\\
 \hline 
 $\gamma^{p}_{\rm{inel}}$ [SY $F_2$]  & 40.4  nb  &16.0 nb\\
@@ -77,9 +64,7 @@ $\gamma^{p}_{\rm{inel}}$ [SY $F_2$]  & 40.4  nb  &16.0 nb\\
 \end{tabular}
 \caption{Integrated fiducial cross sections for inelastic $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production at $\sqrt{s_{N N}} = 8.16$~\TeV\ for different proton structure functions. 
 The effect of applying only $p_T^{\ell}$ requirement is shown in second column.
-%For comparison, the cross section for purely elastic contribution is also shown.
 }
-%\end{scriptsize}
 \label{tab:kt}
 \end{table}
 
@@ -119,144 +104,12 @@ For comparison, the elastic contribution ($p+\textrm{Pb}\rightarrow p+ \textrm{P
 
  \includegraphics[width=0.49\textwidth]{figures_Marta/MX-l.pdf}
 \caption{Differential cross section as a function of the mass of the proton remnants in the fiducial region for $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\ell^- + X$ production at $\sqrt{s_{N N}} = 8.16$~\TeV\ in $k_T$ factorization approach for several proton structure functions.
-%For comparison, the elastic contribution ($p+\textrm{Pb}\rightarrow p+ \textrm{Pb} + \ell^+\ell^-$) is also shown.
 }
  \label{fig:kt_figures3}
 \end{figure}
 %------------------------------------------------------------------------------
 
 
-
-
-
-%
-%%-----------------------------------------------------------------------------
-%\begin{figure}[!h]
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/Mll.pdf}}
-%\end{minipage}
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/Mll-c.pdf}}
-%\end{minipage}
-%\caption{The elastic - elastic and the inelastic-elastic contribution 
-%to dilepton invariant mass distributions 
-%for different structure functions. In the left panel we show the results for the whole phase space, while in the right panel only for the fiducial region.
-%}
-% \label{fig:dsig_dMWW_ineine}
-%\end{figure}
-%%------------------------------------------------------------------------------
-%
-%%-----------------------------------------------------------------------------
-%\begin{figure}[!htbp]
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/pt1.pdf}}
-%\end{minipage}
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/pt1-c.pdf}}
-%\end{minipage}
-%\caption{
-%Transverse momentum distribution of $\mu^+$ or $\mu^-$ 
-%for elastic - elastic and inelastic - elastic different structure functions: LUX-like, ALLM97, Fiore at all., SU and SY (in the left panel we show the results for the whole phase space, while in the right panel only for the fiducial region).
-%}
-% \label{fig:dsig_dMWW_ineine}
-%\end{figure}
-%%------------------------------------------------------------------------------
-%
-%
-%%-----------------------------------------------------------------------------
-%\begin{figure}[!htbp]
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/ptsum.pdf}}
-%\end{minipage}
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/ptsum-c.pdf}}
-%\end{minipage}
-%\caption{
-%Distribution in transverse momentum of the $\mu^+ \mu^-$ pairs for elastic - elastic and 
-%inelastic-elastic
-%contributions
-%for different structure functions: LUX-like, ALLM97, Fiore at all., SU and SY. (in the left panel we show the results for the whole phase space, while in the right panel only for the fiducial region).
-%}
-% \label{fig:dsig_dMWW_ineine}
-%\end{figure}
-%%------------------------------------------------------------------------------
-%
-%
-%%-----------------------------------------------------------------------------
-%\begin{figure}[!htbp]
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/y1.pdf}}
-%\end{minipage}
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/y1-c.pdf}}
-%\end{minipage}
-%
-%\caption{
-%Rapidity distribution of $\mu^+$ or $\mu^-$ leptons
-%for elastic - elastic and inelastic-elastic contributions for different structure functions: LUX-like, ALLM97, Fiore at all., SU and SY. (in the left panel we show the results for the whole phase space, while in the right panel only for the fiducial region).
-%}
-% \label{fig:dsig_dMWW_ineine}
-%\end{figure}
-%%------------------------------------------------------------------------------
-%
-%
-%
-%%------------------------------------------------------------------------------
-%
-%%-----------------------------------------------------------------------------
-%\begin{figure}[!htbp]
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/MX.pdf}}
-%\end{minipage}
-%%\hspace{0.5cm}
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/MX-c.pdf}}
-%\end{minipage}
-%\caption{
-%Missing mass distributions for eleastic-elastic photon-photon contributions and elastic-inelastic photon-photon contributions for different structure functions: LUX-like, ALLM97, Fiore at all., SU and SY. (in the left panel we show the results for the whole phase space, while in the right panel only for the fiducial region).
-%}
-%\label{fig:dsig_dy}
-%\end{figure}
-%%---------------------------------------------------------------
-%
-%
-%
-%
-%%-----------------------------------------------------------------------------
-%\begin{figure}[!htbp]
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/ydiff.pdf}}
-%\end{minipage}
-%%\hspace{0.5cm}
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/ydiff-c.pdf}}
-%\end{minipage}
-%\caption{
-%Distribution in rapidity distance between $\mu^+\mu^-$ leptons.
-%The calculation for the $\gamma-\gamma$ contribution
-%was performed for different structure functions. 
-%The left panel shows results  without cuts while the right panel 
-%shows results with ATLAS cuts.
-%}
-%\label{fig:dsig_dy}
-%\end{figure}
-%%---------------------------------------------------------------
-%
-%%-----------------------------------------------------------------------------
-%\begin{figure}[!htbp]
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/phi.pdf}}
-%\end{minipage}
-%%\hspace{0.5cm}
-%\begin{minipage}{0.47\textwidth}
-% \centerline{\includegraphics[width=1.0\textwidth]{figures_Marta/phi-c.pdf}}
-%\end{minipage}
-%\caption{
-%Distributions for azimuthal angle between $\mu^+\mu^-$ leptons. (in the left panel we show the results for the whole phase space, while in the right panel only for the fiducial region).
-%}
-%\label{fig:dsig_dy}
-%\end{figure}
-%%---------------------------------------------------------------
 
 
 

@@ -2,54 +2,6 @@
 \subsection{$k_T$-factorization approach}
 %--------------------------------------------------
 
-%In this approach we start from the Feynman diagrams shown in Fig.\ref{fig:mateusz},
-%and exploit the high-energy kinematics.
-%Let the four-momenta of incoming protons be denoted $p_A,p_B$. At high energies 
-%the proton masses can be neglected, so that $p_A^2 = p_B^2 =0, \,  2 (p_A\cdot p_B) =s$.
-%
-%
-%The photon-fusion production mechanism in leptonic and hadronic reactions
-%is in great detail reviewed in \cite{Budnev:1974de}, where also many original
-%references can be found. In the most general form, the invariant cross section
-%is written as a convolution of density matrices of photons in the beam particles,
-%and helicity amplitudes for the $\gamma^* \gamma^* \to l^+ l^-$ process.
-%In a high energy limit, where dileptons carry only a small fraction of the 
-%total center-of-mass energy, the density-matrix structure can be very much
-%simplified, and there emerges a $k_T$-factorization representation of the
-%cross section \cite{daSilveira:2014jla}.
-%
-%The unintegrated photon fluxes introduced in \cite{daSilveira:2014jla}
-%can be expressed in terms of the hadronic tensor as 
-%%%
-%\begin{eqnarray}
-% {\cal{F}}^{{\rm{in.el}}}_{\gamma^* \leftarrow A} (z,\bq) = {\alpha_{\rm{em}}\over \pi}  \, (1-z) \, 
-%\Big( {\bq^2 \over \bq^2 + z (M_X^2 - m_A^2) + z^2 m_A^2  }\Big)^2  \, 
-%\cdot {p_B^\mu p_B^\nu \over s^2} \, W^{\rm{in,el}}_{\mu \nu}(M_X^2,Q^2) dM_X^2 \, . \nonumber \\
-%\end{eqnarray}
-%%%
-%These unintegrated fluxes enter the cross section for dilepton production as
-%%%
-%\begin{eqnarray}
-% {d \sigma^{(i,j)} \over dy_1 dy_2 d^2\bp_1 d^2\bp_2} &&=  \int  {d^2 \bq_1 \over \pi \bq_1^2} {d^2 \bq_2 \over \pi \bq_2^2}  
-% {\cal{F}}^{(i)}_{\gamma^*/A}(x_1,\bq_1) \, {\cal{F}}^{(j)}_{\gamma^*/B}(x_2,\bq_2) 
-%{d \sigma^*(p_1,p_2;\bq_1,\bq_2) \over dy_1 dy_2 d^2\bp_1 d^2\bp_2} \, , \nonumber \\ 
-%\label{eq:kt-fact}
-%\end{eqnarray}
-%%%
-%where the indices $i,j \in \{\rm{el}, \rm{in} \}$ denote elastic or inelastic final states.
-%The longitudinal momentum fractions of photons are obtained from the rapidities 
-%and transverse momenta of final state leptons as:
-%%%
-%\begin{eqnarray}
-%x_1 &=& \sqrt{ {\bp_1^2 + m_l^2 \over s}} e^{y_1} +  \sqrt{ {\bp_2^2 +
-%    m_l^2 \over s}} e^{y_2} 
-%\; , \nonumber \\
-%x_2 &=& \sqrt{ {\bp_1^2 + m_l^2 \over s}} e^{-y_1} +  \sqrt{ {\bp_2^2 + m_l^2 \over s}} e^{-y_2} \, .
-%\end{eqnarray}
-%%%
-%The explicit form of the off-shell cross section $d \sigma^*(p_1,p_2;\bq_1,\bq_2)/ dy_1 dy_2 d^2\bp_1 d^2\bp_2$ can be found in
-%Refs. \cite{daSilveira:2014jla,Luszczak:2015aoa}. 
-%
 
 At lowest order, the calculations with collinear photons  produce leptons that are back-to-back in transverse kinematics. 
 Therefore, to take the effect of transverse momentum smearing into account, dedicated parton shower algorithms are usually used.
@@ -57,17 +9,6 @@ Therefore, to take the effect of transverse momentum smearing into account, dedi
 In the $k_T$ factorization approach, one can parametrize the $\gamma^*p \rightarrow X$ vertices in terms of the proton structure functions. The photons from inelastic production have transverse momenta and non-zero virtualities $Q^2$ and the unintegrated photon distributions are used, in contrast to collinear distributions.
 In the DIS limit, the unintegrated inelastic photon flux can be obtained using the following equation~\cite{daSilveira:2014jla, Luszczak:2015aoa}:
 
-%\begin{eqnarray}
-%{d \gamma^p_{inel}(x,Q^2) \over d \log Q^2} =&& {\alpha_{\rm{em}} \over 2 \pi} \int_x^1 {dy \over y} 
-%P_{\gamma \leftarrow q}({x\over y}) 
-%{F_2(y, Q^2) \over y} \left(1- {x\over y}\right)~,
-%\end{eqnarray}
-%where $F_2(x, Q^2)$ is the standard proton structure function, and the splitting function $P_{\gamma \leftarrow q}(x)$ is given as
-%\begin{eqnarray}
-%P_{\gamma \leftarrow q}(x) = {1+(1-x)^2 \over x}
-%\label{kt_factorization_first}
-%\end{eqnarray}
-%%%
 \begin{eqnarray}
 \gamma^p_{inel}(x,\vec{q}_T) = {1\over x} 
 {1 \over \pi \vec{q}_T^2} \, \int_{M^2_{\rm thr}} dM_X^2 {\cal{F}}^{\mathrm{in}}_{\gamma^* \leftarrow p} (x,\vec{q}_T,M^2_X) \, ,
@@ -118,6 +59,5 @@ These unintegrated photon fluxes enter the $p+\textrm{Pb}\rightarrow \textrm{Pb}
 \end{equation}
 %
 where $\sigma_{\gamma^{*} \gamma \rightarrow \ell^+ \ell^-}$ is the off-shell elementary cross-section~\cite{daSilveira:2014jla} and  for  $x_p \ll 1$ we have $Q^2 \approx \vec{q}_T^2$ (see Eq.~\ref{eq:q2}).
-%The elastic flux can be obtained from eq.(1) after multiplying by $(1-x)/(\pi Q^2)$, which takes into account the jacobian from $dQ^2/Q^2$ to $d\vec{q}$. 
 One should note that while the fluxes do not depend on the direction of $\vec{q}_T$, averaging over directions
 of $\vec{q}_T$ in the off-shell cross section replaces the average over photon polarizations in the collinear case.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.27)  18 JAN 2019 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.27)  18 JAN 2019 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -744,7 +744,7 @@ Non-PDF special ignored!] (./sections/intro.tex
 File: figures/dis_to_photon_v2.pdf Graphic file (type pdf)
 
 <use figures/dis_to_photon_v2.pdf>
-Package pdftex.def Info: figures/dis_to_photon_v2.pdf used on input line 27.
+Package pdftex.def Info: figures/dis_to_photon_v2.pdf used on input line 26.
 (pdftex.def)             Requested size: 468.0pt x 103.08566pt.
 
 
@@ -754,7 +754,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 21.
+(amsmath)                 on input line 15.
 
 [3 <./figures/dis_to_photon_v2.pdf>]) (./sections/kt_formalism.tex
 
@@ -773,66 +773,66 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (./sections/collinear_renat.tex [7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 110.
+               Default added (so using `tbp') on input line 64.
 
 <figures/Mll_inc_cut.pdf, id=1513, 796.9775pt x 530.98375pt>
 File: figures/Mll_inc_cut.pdf Graphic file (type pdf)
 
 <use figures/Mll_inc_cut.pdf>
-Package pdftex.def Info: figures/Mll_inc_cut.pdf used on input line 112.
+Package pdftex.def Info: figures/Mll_inc_cut.pdf used on input line 66.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/RatioMll_inc_cut.pdf, id=1514, 796.9775pt x 530.98375pt>
 File: figures/RatioMll_inc_cut.pdf Graphic file (type pdf)
 
 <use figures/RatioMll_inc_cut.pdf>
-Package pdftex.def Info: figures/RatioMll_inc_cut.pdf used on input line 113.
+Package pdftex.def Info: figures/RatioMll_inc_cut.pdf used on input line 67.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/Yll_inc_cut.pdf, id=1515, 796.9775pt x 530.98375pt>
 File: figures/Yll_inc_cut.pdf Graphic file (type pdf)
 
 <use figures/Yll_inc_cut.pdf>
-Package pdftex.def Info: figures/Yll_inc_cut.pdf used on input line 114.
+Package pdftex.def Info: figures/Yll_inc_cut.pdf used on input line 68.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/RatioYll_inc_cut.pdf, id=1516, 796.9775pt x 530.98375pt>
 File: figures/RatioYll_inc_cut.pdf Graphic file (type pdf)
 
 <use figures/RatioYll_inc_cut.pdf>
-Package pdftex.def Info: figures/RatioYll_inc_cut.pdf used on input line 115.
+Package pdftex.def Info: figures/RatioYll_inc_cut.pdf used on input line 69.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/pTl_inc_cut.pdf, id=1517, 796.9775pt x 530.98375pt>
 File: figures/pTl_inc_cut.pdf Graphic file (type pdf)
 
 <use figures/pTl_inc_cut.pdf>
-Package pdftex.def Info: figures/pTl_inc_cut.pdf used on input line 116.
+Package pdftex.def Info: figures/pTl_inc_cut.pdf used on input line 70.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/RatiopTl_inc_cut.pdf, id=1518, 796.9775pt x 530.98375pt>
 File: figures/RatiopTl_inc_cut.pdf Graphic file (type pdf)
 
 <use figures/RatiopTl_inc_cut.pdf>
-Package pdftex.def Info: figures/RatiopTl_inc_cut.pdf used on input line 117.
+Package pdftex.def Info: figures/RatiopTl_inc_cut.pdf used on input line 71.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/etal_inc_cut.pdf, id=1519, 796.9775pt x 530.98375pt>
 File: figures/etal_inc_cut.pdf Graphic file (type pdf)
 
 <use figures/etal_inc_cut.pdf>
-Package pdftex.def Info: figures/etal_inc_cut.pdf used on input line 118.
+Package pdftex.def Info: figures/etal_inc_cut.pdf used on input line 72.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/Ratioetal_inc_cut.pdf, id=1520, 796.9775pt x 530.98375pt>
 File: figures/Ratioetal_inc_cut.pdf Graphic file (type pdf)
 
 <use figures/Ratioetal_inc_cut.pdf>
-Package pdftex.def Info: figures/Ratioetal_inc_cut.pdf used on input line 119.
+Package pdftex.def Info: figures/Ratioetal_inc_cut.pdf used on input line 73.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 
-LaTeX Warning: Float too large for page by 18.42659pt on input line 123.
+LaTeX Warning: Float too large for page by 18.42659pt on input line 77.
 
 ) (./sections/kt_marta.tex
 
@@ -854,40 +854,40 @@ es> <./figures/pTl_inc_cut.pdf, page is rotated 90 degrees> <./figures/RatiopTl
 _inc_cut.pdf, page is rotated 90 degrees> <./figures/etal_inc_cut.pdf, page is 
 rotated 90 degrees> <./figures/Ratioetal_inc_cut.pdf, page is rotated 90 degree
 s>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/base/omscmr.
 fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
  [10] <figures_Marta/Mll-l.pdf, id=1905, 569.12625pt x 435.6275pt>
 File: figures_Marta/Mll-l.pdf Graphic file (type pdf)
 
 <use figures_Marta/Mll-l.pdf>
-Package pdftex.def Info: figures_Marta/Mll-l.pdf used on input line 90.
+Package pdftex.def Info: figures_Marta/Mll-l.pdf used on input line 75.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 <figures_Marta/pt1-l.pdf, id=1906, 569.12625pt x 435.6275pt>
 File: figures_Marta/pt1-l.pdf Graphic file (type pdf)
 
 <use figures_Marta/pt1-l.pdf>
-Package pdftex.def Info: figures_Marta/pt1-l.pdf used on input line 91.
+Package pdftex.def Info: figures_Marta/pt1-l.pdf used on input line 76.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 <figures_Marta/Y-l.pdf, id=1907, 569.12625pt x 435.6275pt>
 File: figures_Marta/Y-l.pdf Graphic file (type pdf)
 
 <use figures_Marta/Y-l.pdf>
-Package pdftex.def Info: figures_Marta/Y-l.pdf used on input line 92.
+Package pdftex.def Info: figures_Marta/Y-l.pdf used on input line 77.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 <figures_Marta/y1-l.pdf, id=1908, 569.12625pt x 435.6275pt>
 File: figures_Marta/y1-l.pdf Graphic file (type pdf)
 
 <use figures_Marta/y1-l.pdf>
-Package pdftex.def Info: figures_Marta/y1-l.pdf used on input line 93.
+Package pdftex.def Info: figures_Marta/y1-l.pdf used on input line 78.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 
@@ -897,14 +897,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures_Marta/pt-sum-l.pdf Graphic file (type pdf)
 
 <use figures_Marta/pt-sum-l.pdf>
-Package pdftex.def Info: figures_Marta/pt-sum-l.pdf used on input line 106.
+Package pdftex.def Info: figures_Marta/pt-sum-l.pdf used on input line 91.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 <figures_Marta/phi-l.pdf, id=1910, 569.12625pt x 435.6275pt>
 File: figures_Marta/phi-l.pdf Graphic file (type pdf)
 
 <use figures_Marta/phi-l.pdf>
-Package pdftex.def Info: figures_Marta/phi-l.pdf used on input line 107.
+Package pdftex.def Info: figures_Marta/phi-l.pdf used on input line 92.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 
@@ -914,7 +914,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures_Marta/MX-l.pdf Graphic file (type pdf)
 
 <use figures_Marta/MX-l.pdf>
-Package pdftex.def Info: figures_Marta/MX-l.pdf used on input line 120.
+Package pdftex.def Info: figures_Marta/MX-l.pdf used on input line 105.
 (pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
 
 
@@ -928,20 +928,20 @@ grees> <./figures_Marta/phi-l.pdf, page is rotated 90 degrees> <./figures_Marta
 /MX-l.pdf, page is rotated 90 degrees>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 29.
+               Default added (so using `tbp') on input line 28.
 
 <figures/Mll_inc_cut_kt.pdf, id=2233, 796.9775pt x 530.98375pt>
 File: figures/Mll_inc_cut_kt.pdf Graphic file (type pdf)
 
 <use figures/Mll_inc_cut_kt.pdf>
-Package pdftex.def Info: figures/Mll_inc_cut_kt.pdf used on input line 30.
+Package pdftex.def Info: figures/Mll_inc_cut_kt.pdf used on input line 29.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/RatioMll_inc_cut_kt.pdf, id=2234, 796.9775pt x 530.98375pt>
 File: figures/RatioMll_inc_cut_kt.pdf Graphic file (type pdf)
 
 <use figures/RatioMll_inc_cut_kt.pdf>
-Package pdftex.def Info: figures/RatioMll_inc_cut_kt.pdf used on input line 31.
+Package pdftex.def Info: figures/RatioMll_inc_cut_kt.pdf used on input line 30.
 
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
@@ -949,14 +949,14 @@ Package pdftex.def Info: figures/RatioMll_inc_cut_kt.pdf used on input line 31.
 File: figures/Yll_inc_cut_kt.pdf Graphic file (type pdf)
 
 <use figures/Yll_inc_cut_kt.pdf>
-Package pdftex.def Info: figures/Yll_inc_cut_kt.pdf used on input line 32.
+Package pdftex.def Info: figures/Yll_inc_cut_kt.pdf used on input line 31.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/RatioYll_inc_cut_kt.pdf, id=2236, 796.9775pt x 530.98375pt>
 File: figures/RatioYll_inc_cut_kt.pdf Graphic file (type pdf)
 
 <use figures/RatioYll_inc_cut_kt.pdf>
-Package pdftex.def Info: figures/RatioYll_inc_cut_kt.pdf used on input line 33.
+Package pdftex.def Info: figures/RatioYll_inc_cut_kt.pdf used on input line 32.
 
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
@@ -964,14 +964,14 @@ Package pdftex.def Info: figures/RatioYll_inc_cut_kt.pdf used on input line 33.
 File: figures/pTl_inc_cut_kt.pdf Graphic file (type pdf)
 
 <use figures/pTl_inc_cut_kt.pdf>
-Package pdftex.def Info: figures/pTl_inc_cut_kt.pdf used on input line 34.
+Package pdftex.def Info: figures/pTl_inc_cut_kt.pdf used on input line 33.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/RatiopTl_inc_cut_kt.pdf, id=2238, 796.9775pt x 530.98375pt>
 File: figures/RatiopTl_inc_cut_kt.pdf Graphic file (type pdf)
 
 <use figures/RatiopTl_inc_cut_kt.pdf>
-Package pdftex.def Info: figures/RatiopTl_inc_cut_kt.pdf used on input line 35.
+Package pdftex.def Info: figures/RatiopTl_inc_cut_kt.pdf used on input line 34.
 
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
@@ -979,14 +979,14 @@ Package pdftex.def Info: figures/RatiopTl_inc_cut_kt.pdf used on input line 35.
 File: figures/etal_inc_cut_kt.pdf Graphic file (type pdf)
 
 <use figures/etal_inc_cut_kt.pdf>
-Package pdftex.def Info: figures/etal_inc_cut_kt.pdf used on input line 36.
+Package pdftex.def Info: figures/etal_inc_cut_kt.pdf used on input line 35.
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 
 <figures/Ratioetal_inc_cut_kt.pdf, id=2240, 796.9775pt x 530.98375pt>
 File: figures/Ratioetal_inc_cut_kt.pdf Graphic file (type pdf)
 
 <use figures/Ratioetal_inc_cut_kt.pdf>
-Package pdftex.def Info: figures/Ratioetal_inc_cut_kt.pdf used on input line 37
+Package pdftex.def Info: figures/Ratioetal_inc_cut_kt.pdf used on input line 36
 .
 (pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
 ) [14] [15 <./figures/Mll_inc_cut_kt.pdf, page is rotated 90 degrees> <./figure
