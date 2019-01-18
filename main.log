@@ -1,12 +1,33 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  7 DEC 2018 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.27)  18 JAN 2019 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main
 (./main.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revtex4.cls
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/lineno/linen
+o.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count79
+\output=\toks14
+\linenoprevgraf=\count80
+\linenumbersep=\dimen102
+\linenumberwidth=\dimen103
+\c@linenumber=\count81
+\c@pagewiselinenumber=\count82
+\c@LN@truepage=\count83
+\c@internallinenumber=\count84
+\c@internallinenumbers=\count85
+\quotelinenumbersep=\dimen104
+\bframerule=\dimen105
+\bframesep=\dimen106
+\bframebox=\box26
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/revtex4/revt
+ex4.cls
 Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
 cumentation)
  Copyright (c) 2001 The American Physical Society.
@@ -17,49 +38,51 @@ http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
  Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
 ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
 Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
-\intertabularlinepenalty=\count79
-\@tbpen=\count80
-\@arstrutbox@hline=\box26
+\intertabularlinepenalty=\count86
+\@tbpen=\count87
+\@arstrutbox@hline=\box27
 Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
 ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
-\c@linecount=\count81
-\output=\toks14
-\@protection@box=\box27
-\@topmark@saved=\toks15
-\footins@saved=\box28
-\pagesofar=\box29
-\footbox=\box30
-\pagegrid@col=\count82
+\c@linecount=\count88
+\output=\toks15
+\@protection@box=\box28
+\@topmark@saved=\toks16
+\footins@saved=\box29
+\pagesofar=\box30
+\footbox=\box31
+\pagegrid@col=\count89
 Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
 ly upper/lower case changing (DPC)]. on input line 3682.
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@affil=\count83
-\absbox=\box31
-\c@part=\count84
-\c@section=\count85
-\c@subsection=\count86
-\c@subsubsection=\count87
-\c@paragraph=\count88
-\c@subparagraph=\count89
+\c@affil=\count90
+\absbox=\box32
+\c@part=\count91
+\c@section=\count92
+\c@subsection=\count93
+\c@subsubsection=\count94
+\c@paragraph=\count95
+\c@subparagraph=\count96
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\c@figure=\count90
-\c@table=\count91
+\c@figure=\count97
+\c@table=\count98
 
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/natbib/natbi
+b.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count92
+\c@NAT@ctr=\count99
 )
-\widetext@top=\box32
-\widetext@bot=\box33
+\widetext@top=\box33
+\widetext@bot=\box34
 
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revsymb.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/revtex4/revs
+ymb.sty
 Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
 tion)
 LaTeX Info: Redefining \REV@mathfrak on input line 118.
@@ -67,114 +90,134 @@ LaTeX Info: Redefining \REV@mathfrak on input line 118.
 
 Class revtex4 Warning: No Society specified, using generic APS style.
 
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/aps.rtx
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/revtex4/aps.
+rtx
 File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
 n)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/12pt.rtx
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/revtex4/12pt
+.rtx
 File: 12pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
 on)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/graphics/eps
+fig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/graphics/gra
+phicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/graphics/key
+val.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/graphics/gra
+phics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/graphics/tri
+g.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/latexconfig/
+graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/pdftex-def/p
+dftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/oberdiek/i
+nfwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/oberdiek/l
+txcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count93
+\Gread@gobject=\count100
 ))
-\Gin@req@height=\dimen102
-\Gin@req@width=\dimen103
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
 )
-\epsfxsize=\dimen104
-\epsfysize=\dimen105
+\epsfxsize=\dimen109
+\epsfysize=\dimen110
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsmath/amsm
+ath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen106
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsmath/amst
+ext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsmath/amsg
+en.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen111
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen107
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsmath/amsb
+sy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsmath/amso
+pn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count95
-\leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count97
-\DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box34
-\strutbox@=\box35
-\big@size=\dimen108
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count99
-\c@MaxMatrixCols=\count100
+\inf@bad=\count101
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count102
+\leftroot@=\count103
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count104
+\DOTSCASE@=\count105
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box35
+\strutbox@=\box36
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
 \dotsspace@=\muskip11
-\c@parentequation=\count101
-\dspbrk@lvl=\count102
-\tag@help=\toks18
-\row@=\count103
-\column@=\count104
-\maxfields@=\count105
-\andhelp@=\toks19
-\eqnshift@=\dimen109
-\alignsep@=\dimen110
-\tagshift@=\dimen111
-\tagwidth@=\dimen112
-\totwidth@=\dimen113
-\lineht@=\dimen114
-\@envbody=\toks20
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks19
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks20
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks21
 \multlinegap=\skip46
 \multlinetaggap=\skip47
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsfonts/ams
+symb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsfonts/ams
+fonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -183,22 +226,25 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 111.
 LaTeX Info: Redefining \Bbb on input line 113.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 207.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/hyperref/hyp
+erref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/oberdiek/h
+obsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/oberdiek/h
+obsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -238,25 +284,30 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/ifxetex/if
+xetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/oberdiek/aux
+hook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/oberdiek/kvo
+ptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen115
-\Hy@linkcounter=\count106
-\Hy@pagecounter=\count107
+\@linkdim=\dimen120
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/hyperref/pd1
+enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count108
+\Hy@SavedSpaceFactor=\count115
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/latexconfig/
+hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -266,12 +317,12 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count109
+\c@Hy@tempcnt=\count116
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen116
-\Fld@menulength=\count110
-\Field@Width=\dimen117
-\Fld@charsize=\dimen118
+\XeTeXLinkMargin=\dimen121
+\Fld@menulength=\count117
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -281,65 +332,357 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count111
-\c@Item=\count112
-\c@Hfootnote=\count113
+\Hy@abspage=\count118
+\c@Item=\count119
+\c@Hfootnote=\count120
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count114
-\c@bookmark@seq@number=\count115
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/hyperref/hpd
+ftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count121
+\c@bookmark@seq@number=\count122
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/oberdiek/rer
+unfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip48
 )
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/placeins/pla
+ceins.sty
 Package: placeins 2005/04/18  v 2.2
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/pstricks/pst
+ricks.sty
+Package: pstricks 2013/12/12 v0.60 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pstricks/p
+stricks.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/xkeyval/ps
+t-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/xkeyval/xkey
+val.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/xkeyval/xk
+eyval.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/xkeyval/xk
+vutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count123
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pstricks/p
+st-fp.tex `pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count124
+\pstFP@xia=\count125
+\pstFP@xib=\count126
+\pstFP@xfa=\count127
+\pstFP@xfb=\count128
+\pstFP@rega=\count129
+\pstFP@regb=\count130
+\pstFP@regs=\count131
+\pstFP@times=\count132
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/utilit
+ies/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen124
+\pgfutil@tempdimb=\dimen125
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/utilit
+ies/pgfutil-common-lists.tex))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/utilit
+ies/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/utilit
+ies/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/utilit
+ies/pgffor.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmath.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathcalc.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathutil.code.tex
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgf@x=\dimen126
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgf@xa=\dimen127
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgf@xb=\dimen128
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgf@xc=\dimen129
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgf@y=\dimen130
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgf@ya=\dimen131
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgf@yb=\dimen132
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgf@yc=\dimen133
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\c@pgf@counta=\count133
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\c@pgf@countb=\count134
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\c@pgf@countc=\count135
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\c@pgf@countd=\count136
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgfutil@tempcnta=\count137
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+\pgfutil@tempcntb=\count138
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathparser.code.tex
+\pgfmath@dimen=\dimen134
+\pgfmath@count=\count139
+\pgfmath@box=\box37
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.basic.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.trigonometric.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.random.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.comparison.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.base.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.round.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.misc.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.integerarithmetics.code.tex)))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pgf/math/p
+gfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count140
+))
+\pgffor@iter=\dimen135
+\pgffor@skip=\dimen136
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+)
+\psLoopIndex=\count141
+
+`PSTricks' v2.60  <2014/10/25> (tvz)
+\pst@dima=\dimen137
+\pst@dimb=\dimen138
+\pst@dimc=\dimen139
+\pst@dimd=\dimen140
+\pst@dimg=\dimen141
+\pst@dimh=\dimen142
+\pst@dimm=\dimen143
+\pst@dimn=\dimen144
+\pst@dimo=\dimen145
+\pst@dimp=\dimen146
+\pst@hbox=\box38
+\pst@ibox=\box39
+\pst@boxg=\box40
+\pst@cnta=\count142
+\pst@cntb=\count143
+\pst@cntc=\count144
+\pst@cntd=\count145
+\pst@cntg=\count146
+\pst@cnth=\count147
+\pst@cntm=\count148
+\pst@cntn=\count149
+\pst@cnto=\count150
+\pst@cntp=\count151
+\@zero=\count152
+\pst@toks=\toks34
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pstricks/p
+stricks.con)
+\psunit=\dimen147
+\psxunit=\dimen148
+\psyunit=\dimen149
+\pst@C@@rType=\count153
+\pslinewidth=\dimen150
+\psk@startLW=\dimen151
+\psk@endLW=\dimen152
+\pst@customdefs=\toks35
+\pslinearc=\dimen153
+\pst@symbolStep=\dimen154
+\pst@symbolWidth=\dimen155
+\pst@symbolLinewidth=\dimen156
+\everypsbox=\toks36
+\psframesep=\dimen157
+\pslabelsep=\dimen158
+\sh@wgridXunit=\dimen159
+\sh@wgridYunit=\dimen160
+\pst@shift=\dimen161
+)
+File: pstricks.tex 2014/10/25 v2.60 `PSTricks' (tvz,hv)
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/pstricks/p
+st-fp.tex)
+File: pst-fp.tex 2014/10/25 v2.60 `PST-fp' (hv)
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/xcolor/xcolo
+r.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/latexconfig/
+color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/blindtext/bl
+indtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/tools/xspace
+.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count154
+\c@Blindtext=\count155
+\c@blind@countparstart=\count156
+\blind@countxx=\count157
+\blindtext@numBlindtext=\count158
+\blind@countyy=\count159
+\c@blindlist=\count160
+\c@blindlistlevel=\count161
+\c@blindlist@level=\count162
+\blind@listitem=\count163
+\c@blind@listcount=\count164
+\c@blind@levelcount=\count165
+\blind@mathformula=\count166
+\blind@Mathformula=\count167
+\c@blind@randomcount=\count168
+\c@blind@randommax=\count169
+\c@blind@pangramcount=\count170
+\c@blind@pangrammax=\count171
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-Class revtex4 Info: Patching LaTeX tabular. on input line 43.
-Class revtex4 Info: cite was not loaded (OK!) on input line 43.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+Class revtex4 Info: Patching LaTeX tabular. on input line 45.
+Class revtex4 Info: cite was not loaded (OK!) on input line 45.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 45.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/context/base/supp-
+pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen119
-\scratchbox=\box36
-\nofMPsegments=\count117
-\nofMParguments=\count118
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen120
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
-\everyMPtoPDFconversion=\toks23
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\scratchcounter=\count172
+\scratchdimen=\dimen162
+\scratchbox=\box41
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen163
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks38
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/oberdiek/eps
+topdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/oberdiek/grf
+ext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -347,136 +690,57 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/latexconfig/
+epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box37
+\AtBeginShipoutBox=\box42
 
 
 Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 43.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring OFF on input line 45.
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/hyperref/nam
+eref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/generic/oberdiek/g
+ettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count122
+\c@section@level=\count178
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
-
-(./main.out) (./main.out)
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 68.
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsfonts/ums
+a.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 68.
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/amsfonts/ums
+b.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./sections/intro.tex
-
-Package natbib Warning: Citation `Aad:2014qja' on page 2 undefined on input lin
-e 7.
-
-
-Package natbib Warning: Citation `Aad:2016zzw' on page 2 undefined on input lin
-e 7.
-
-
-Package natbib Warning: Citation `Accomando:2016tah' on page 2 undefined on inp
-ut line 7.
-
-
-Package natbib Warning: Citation `Luszczak:2015aoa' on page 2 undefined on inpu
-t line 7.
-
-
-Package natbib Warning: Citation `Harland-Lang:2016apc' on page 2 undefined on 
-input line 7.
-
-
-Package natbib Warning: Citation `Luszczak:2014mta' on page 2 undefined on inpu
-t line 7.
-
-
-Package natbib Warning: Citation `Denner:2015fca' on page 2 undefined on input 
-line 7.
-
-
-Package natbib Warning: Citation `Dyndal:2015hrp' on page 2 undefined on input 
-line 7.
-
-
-Package natbib Warning: Citation `Ababekri:2016kkj' on page 2 undefined on inpu
-t line 7.
-
-
-Package natbib Warning: Citation `Biedermann:2016guo' on page 2 undefined on in
-put line 7.
-
-
-Package natbib Warning: Citation `Biedermann:2016yvs' on page 2 undefined on in
-put line 7.
-
-
-Package natbib Warning: Citation `Yong:2016njr' on page 2 undefined on input li
-ne 7.
-
-
-Package natbib Warning: Citation `Luszczak:2018ntp' on page 2 undefined on inpu
-t line 7.
-
-
-Package natbib Warning: Citation `Manohar:2016nzj' on page 2 undefined on input
- line 10.
-
-
-Package natbib Warning: Citation `Schmidt:2015zda' on page 2 undefined on input
- line 15.
-
-
-Package natbib Warning: Citation `Ball:2013hta' on page 2 undefined on input li
-ne 16.
-
-
-Package natbib Warning: Citation `Aad:2016zzw' on page 2 undefined on input lin
-e 16.
-
-
-Package natbib Warning: Citation `Giuli:2017oii' on page 2 undefined on input l
-ine 16.
-
-
-Package natbib Warning: Citation `Aad:2015bwa' on page 2 undefined on input lin
-e 17.
-
-
-Package natbib Warning: Citation `Aaboud:2017oiq' on page 2 undefined on input 
-line 17.
-
-
-Package natbib Warning: Citation `Chatrchyan:2011ci' on page 2 undefined on inp
-ut line 17.
-
-
-Package natbib Warning: Citation `Chatrchyan:2012tv' on page 2 undefined on inp
-ut line 17.
-
-
-Package natbib Warning: Citation `Cms:2018het' on page 2 undefined on input lin
-e 17.
-
-<figures/dis_to_photon_v2.pdf, id=44, 455.7025pt x 100.375pt>
+) [1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-var
+/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] (./sections/intro.tex
+<figures/dis_to_photon_v2.pdf, id=98, 455.7025pt x 100.375pt>
 File: figures/dis_to_photon_v2.pdf Graphic file (type pdf)
 
 <use figures/dis_to_photon_v2.pdf>
@@ -492,14 +756,304 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 21.
 
+[3 <./figures/dis_to_photon_v2.pdf>]) (./sections/kt_formalism.tex
 
-Package natbib Warning: Citation `Budnev:1974de' on page 3 undefined on input l
-ine 27.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
 
 
-Package natbib Warning: Citation `Klein:2016yzr' on page 3 undefined on input l
-ine 37.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
 
-[3 <./figures/dis_to_photon_v2.pdf
-!pdfTeX error: pdflatex: PDF inclusion: type <none> cannot be copied
- ==> Fatal error occurred, no output PDF file produced!
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+[4]) (./sections/selection_background.tex [5] [6])
+(./sections/collinear_renat.tex [7]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 110.
+
+<figures/Mll_inc_cut.pdf, id=1513, 796.9775pt x 530.98375pt>
+File: figures/Mll_inc_cut.pdf Graphic file (type pdf)
+
+<use figures/Mll_inc_cut.pdf>
+Package pdftex.def Info: figures/Mll_inc_cut.pdf used on input line 112.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/RatioMll_inc_cut.pdf, id=1514, 796.9775pt x 530.98375pt>
+File: figures/RatioMll_inc_cut.pdf Graphic file (type pdf)
+
+<use figures/RatioMll_inc_cut.pdf>
+Package pdftex.def Info: figures/RatioMll_inc_cut.pdf used on input line 113.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/Yll_inc_cut.pdf, id=1515, 796.9775pt x 530.98375pt>
+File: figures/Yll_inc_cut.pdf Graphic file (type pdf)
+
+<use figures/Yll_inc_cut.pdf>
+Package pdftex.def Info: figures/Yll_inc_cut.pdf used on input line 114.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/RatioYll_inc_cut.pdf, id=1516, 796.9775pt x 530.98375pt>
+File: figures/RatioYll_inc_cut.pdf Graphic file (type pdf)
+
+<use figures/RatioYll_inc_cut.pdf>
+Package pdftex.def Info: figures/RatioYll_inc_cut.pdf used on input line 115.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/pTl_inc_cut.pdf, id=1517, 796.9775pt x 530.98375pt>
+File: figures/pTl_inc_cut.pdf Graphic file (type pdf)
+
+<use figures/pTl_inc_cut.pdf>
+Package pdftex.def Info: figures/pTl_inc_cut.pdf used on input line 116.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/RatiopTl_inc_cut.pdf, id=1518, 796.9775pt x 530.98375pt>
+File: figures/RatiopTl_inc_cut.pdf Graphic file (type pdf)
+
+<use figures/RatiopTl_inc_cut.pdf>
+Package pdftex.def Info: figures/RatiopTl_inc_cut.pdf used on input line 117.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/etal_inc_cut.pdf, id=1519, 796.9775pt x 530.98375pt>
+File: figures/etal_inc_cut.pdf Graphic file (type pdf)
+
+<use figures/etal_inc_cut.pdf>
+Package pdftex.def Info: figures/etal_inc_cut.pdf used on input line 118.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/Ratioetal_inc_cut.pdf, id=1520, 796.9775pt x 530.98375pt>
+File: figures/Ratioetal_inc_cut.pdf Graphic file (type pdf)
+
+<use figures/Ratioetal_inc_cut.pdf>
+Package pdftex.def Info: figures/Ratioetal_inc_cut.pdf used on input line 119.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+
+LaTeX Warning: Float too large for page by 18.42659pt on input line 123.
+
+) (./sections/kt_marta.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+[8] [9 <./figures/Mll_inc_cut.pdf, page is rotated 90 degrees> <./figures/Ratio
+Mll_inc_cut.pdf, page is rotated 90 degrees> <./figures/Yll_inc_cut.pdf, page i
+s rotated 90 degrees> <./figures/RatioYll_inc_cut.pdf, page is rotated 90 degre
+es> <./figures/pTl_inc_cut.pdf, page is rotated 90 degrees> <./figures/RatiopTl
+_inc_cut.pdf, page is rotated 90 degrees> <./figures/etal_inc_cut.pdf, page is 
+rotated 90 degrees> <./figures/Ratioetal_inc_cut.pdf, page is rotated 90 degree
+s>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/tex/latex/base/omscmr.
+fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+ [10] <figures_Marta/Mll-l.pdf, id=1905, 569.12625pt x 435.6275pt>
+File: figures_Marta/Mll-l.pdf Graphic file (type pdf)
+
+<use figures_Marta/Mll-l.pdf>
+Package pdftex.def Info: figures_Marta/Mll-l.pdf used on input line 90.
+(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+
+<figures_Marta/pt1-l.pdf, id=1906, 569.12625pt x 435.6275pt>
+File: figures_Marta/pt1-l.pdf Graphic file (type pdf)
+
+<use figures_Marta/pt1-l.pdf>
+Package pdftex.def Info: figures_Marta/pt1-l.pdf used on input line 91.
+(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+
+<figures_Marta/Y-l.pdf, id=1907, 569.12625pt x 435.6275pt>
+File: figures_Marta/Y-l.pdf Graphic file (type pdf)
+
+<use figures_Marta/Y-l.pdf>
+Package pdftex.def Info: figures_Marta/Y-l.pdf used on input line 92.
+(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+
+<figures_Marta/y1-l.pdf, id=1908, 569.12625pt x 435.6275pt>
+File: figures_Marta/y1-l.pdf Graphic file (type pdf)
+
+<use figures_Marta/y1-l.pdf>
+Package pdftex.def Info: figures_Marta/y1-l.pdf used on input line 93.
+(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures_Marta/pt-sum-l.pdf, id=1909, 569.12625pt x 435.6275pt>
+File: figures_Marta/pt-sum-l.pdf Graphic file (type pdf)
+
+<use figures_Marta/pt-sum-l.pdf>
+Package pdftex.def Info: figures_Marta/pt-sum-l.pdf used on input line 106.
+(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+
+<figures_Marta/phi-l.pdf, id=1910, 569.12625pt x 435.6275pt>
+File: figures_Marta/phi-l.pdf Graphic file (type pdf)
+
+<use figures_Marta/phi-l.pdf>
+Package pdftex.def Info: figures_Marta/phi-l.pdf used on input line 107.
+(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures_Marta/MX-l.pdf, id=1911, 569.12625pt x 435.6275pt>
+File: figures_Marta/MX-l.pdf Graphic file (type pdf)
+
+<use figures_Marta/MX-l.pdf>
+Package pdftex.def Info: figures_Marta/MX-l.pdf used on input line 120.
+(pdftex.def)             Requested size: 229.32257pt x 175.5308pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./sections/discussion.tex [11] [12 <./figures_Marta/Mll-l.pdf, page is rotat
+ed 90 degrees> <./figures_Marta/pt1-l.pdf, page is rotated 90 degrees> <./figur
+es_Marta/Y-l.pdf, page is rotated 90 degrees> <./figures_Marta/y1-l.pdf, page i
+s rotated 90 degrees>] [13 <./figures_Marta/pt-sum-l.pdf, page is rotated 90 de
+grees> <./figures_Marta/phi-l.pdf, page is rotated 90 degrees> <./figures_Marta
+/MX-l.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 29.
+
+<figures/Mll_inc_cut_kt.pdf, id=2233, 796.9775pt x 530.98375pt>
+File: figures/Mll_inc_cut_kt.pdf Graphic file (type pdf)
+
+<use figures/Mll_inc_cut_kt.pdf>
+Package pdftex.def Info: figures/Mll_inc_cut_kt.pdf used on input line 30.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/RatioMll_inc_cut_kt.pdf, id=2234, 796.9775pt x 530.98375pt>
+File: figures/RatioMll_inc_cut_kt.pdf Graphic file (type pdf)
+
+<use figures/RatioMll_inc_cut_kt.pdf>
+Package pdftex.def Info: figures/RatioMll_inc_cut_kt.pdf used on input line 31.
+
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/Yll_inc_cut_kt.pdf, id=2235, 796.9775pt x 530.98375pt>
+File: figures/Yll_inc_cut_kt.pdf Graphic file (type pdf)
+
+<use figures/Yll_inc_cut_kt.pdf>
+Package pdftex.def Info: figures/Yll_inc_cut_kt.pdf used on input line 32.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/RatioYll_inc_cut_kt.pdf, id=2236, 796.9775pt x 530.98375pt>
+File: figures/RatioYll_inc_cut_kt.pdf Graphic file (type pdf)
+
+<use figures/RatioYll_inc_cut_kt.pdf>
+Package pdftex.def Info: figures/RatioYll_inc_cut_kt.pdf used on input line 33.
+
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/pTl_inc_cut_kt.pdf, id=2237, 796.9775pt x 530.98375pt>
+File: figures/pTl_inc_cut_kt.pdf Graphic file (type pdf)
+
+<use figures/pTl_inc_cut_kt.pdf>
+Package pdftex.def Info: figures/pTl_inc_cut_kt.pdf used on input line 34.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/RatiopTl_inc_cut_kt.pdf, id=2238, 796.9775pt x 530.98375pt>
+File: figures/RatiopTl_inc_cut_kt.pdf Graphic file (type pdf)
+
+<use figures/RatiopTl_inc_cut_kt.pdf>
+Package pdftex.def Info: figures/RatiopTl_inc_cut_kt.pdf used on input line 35.
+
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/etal_inc_cut_kt.pdf, id=2239, 796.9775pt x 530.98375pt>
+File: figures/etal_inc_cut_kt.pdf Graphic file (type pdf)
+
+<use figures/etal_inc_cut_kt.pdf>
+Package pdftex.def Info: figures/etal_inc_cut_kt.pdf used on input line 36.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+
+<figures/Ratioetal_inc_cut_kt.pdf, id=2240, 796.9775pt x 530.98375pt>
+File: figures/Ratioetal_inc_cut_kt.pdf Graphic file (type pdf)
+
+<use figures/Ratioetal_inc_cut_kt.pdf>
+Package pdftex.def Info: figures/Ratioetal_inc_cut_kt.pdf used on input line 37
+.
+(pdftex.def)             Requested size: 201.23657pt x 134.07436pt.
+) [14] [15 <./figures/Mll_inc_cut_kt.pdf, page is rotated 90 degrees> <./figure
+s/RatioMll_inc_cut_kt.pdf, page is rotated 90 degrees> <./figures/Yll_inc_cut_k
+t.pdf, page is rotated 90 degrees> <./figures/RatioYll_inc_cut_kt.pdf, page is 
+rotated 90 degrees> <./figures/pTl_inc_cut_kt.pdf, page is rotated 90 degrees> 
+<./figures/RatiopTl_inc_cut_kt.pdf, page is rotated 90 degrees> <./figures/etal
+_inc_cut_kt.pdf, page is rotated 90 degrees> <./figures/Ratioetal_inc_cut_kt.pd
+f, page is rotated 90 degrees>]
+(./sections/summary.tex) (./main.bbl [16]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+ [17] [18]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+ [19])
+
+Class revtex4 Warning: Command \address is obsolete;
+Use \affiliation instead.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+[20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B54A8286B8E797C99C002DBDEE8ADA79;821.
+ ) 
+Here is how much of TeX's memory you used:
+ 15277 strings out of 493109
+ 252913 string characters out of 6125602
+ 350180 words of memory out of 5000000
+ 18382 multiletter control sequences out of 15000+600000
+ 21305 words of font info for 79 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,40p,761b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
+</cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></cvmfs/sft.cern.ch/lcg/external/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></cvmfs/sft.cern.
+ch/lcg/external/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></cvmfs/sft.cern.ch/lcg/external/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></cvmfs/sft.cern.c
+h/lcg/external/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></cvmfs/sft.cern.ch/lcg
+/external/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></c
+vmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy6.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></cvmfs/sft.cern.ch/lcg/e
+xternal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></cvm
+fs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti12.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2014/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/201
+4/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb>
+Output written on main.pdf (20 pages, 990751 bytes).
+PDF statistics:
+ 2810 PDF objects out of 2984 (max. 8388607)
+ 2147 compressed objects within 22 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+
