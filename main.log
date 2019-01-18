@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.27)  18 JAN 2019 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.27)  18 JAN 2019 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -770,7 +770,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 [4]) (./sections/selection_background.tex [5] [6])
-(./sections/collinear_renat.tex [7]
+(./sections/collinear_collinear.tex [7]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 64.
@@ -834,7 +834,7 @@ Package pdftex.def Info: figures/Ratioetal_inc_cut.pdf used on input line 73.
 
 LaTeX Warning: Float too large for page by 18.42659pt on input line 77.
 
-) (./sections/kt_marta.tex
+) (./sections/kt_kt.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -1014,7 +1014,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  15276 strings out of 493109
- 252731 string characters out of 6125602
+ 252734 string characters out of 6125602
  350180 words of memory out of 5000000
  18382 multiletter control sequences out of 15000+600000
  21305 words of font info for 79 fonts, out of 8000000 for 9000
