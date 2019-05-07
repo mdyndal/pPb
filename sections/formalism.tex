@@ -11,7 +11,7 @@ To get the distribution of the elastic photons from the proton, one can express 
 the electric and magnetic form factors $G_E(Q^2)$ and $G_M(Q^2)$ of the proton.
 This contribution is obtained as
 \begin{eqnarray}
-  \gamma^{p}_{el}(x,Q^2) = \frac{\alpha_{\rm{em}}}{\pi}
+   \gamma^{p}_{el}(x,Q^2) = \frac{\alpha_{\rm{em}}}{\pi}
 \Big[ \Big( 1- {x \over 2} \Big)^2 \, {4 m_p^2 G_E^2(Q^2) + Q^2 G_M^2(Q^2) \over 4m_p^2 + Q^2} + {x^2 \over 4} G_M^2(Q^2) \Big]~,
 \label{proton_el_flux}
 \end{eqnarray}
@@ -33,7 +33,11 @@ For the Pb nucleus, we use the form factor parameterization from the STARlight M
 where $R_A = 1.1 A^{1/3}$ fm, $a = 0.7$ fm and $Q = \sqrt{Q^2}$.
 %%%
 
-
+The elastic photon PDFs of the proton and lead nucleus can be integrated over $Q^2$ as 
+\begin{equation}
+\gamma^{(p,Pb)}_{el}(x)  = \int d Q^2 \gamma^{(p,Pb)}_{el}(x, Q^2) \,.
+\end{equation}
+This is useful for the collinear-factorization approach since the $Q^2$ dependence factorizes in this case. 
 %-----------------------------------------------------------
 \subsection{Collinear-factorization approach and choice of the scale}
 %-----------------------------------------------------------
@@ -47,12 +51,12 @@ At LO and at a given scale $\mu^2$, the photon parton distribution $\gamma^p_{in
  q ({x \over y}, \mu^2 )   + P_{\gamma \leftarrow \gamma}(y) \gamma^p_{inel}({x \over y},\mu^2) \Big ]~,
 \end{eqnarray}
 %%
-where $q (x,\mu^2)$ is the quark PDF, $e_q$ is the quark charge, $P_{\gamma \leftarrow q}$ is the $q\rightarrow\gamma$ splitting function, and $P_{\gamma \leftarrow \gamma}$ corresponds to the virtual self-energy correction to the photon propagator.
+where $q (x,\mu^2)$ is the quark PDF,  $P_{\gamma \leftarrow q}$ is the $q\rightarrow\gamma$ splitting function, and $P_{\gamma \leftarrow \gamma}$ corresponds to the virtual self-energy correction to the photon propagator.
 This is the basis for colinear photon-PDFs in the initial~\cite{Gluck:2002fi, Martin:2004dh} and more recent~\cite{Ball:2013hta, Martin:2014nqa, Schmidt:2014aba, Harland-Lang:2016kog, Giuli:2017oii, Manohar:2016nzj, Bertone:2017bme} analyses.
 
 The computation of the photon-induced dilepton production cross section  requires definition of the  scale ($\mu^2$) at which the photon PDFs are convoluted.
 The usual choice for $\mu$ is the mass of the system (motivated by the $s$-channel quark--antiquark annihilation process) or the transverse momentum of the leading object. 
-These choices are however not optimal for the $s$- and $t$-channel initiated photon-induced process.
+These choices are however not optimal for the $t$- and $u$-channel initiated photon-induced process.
 By analogy to DIS (Fig.~\ref{fig:diagrams}), where the scale is associated with the virtuality of the exchanged photon,
 it is possible to define the scale in case of the $\gamma\gamma\rightarrow\ell^+\ell^-$ process.
 This is achieved by taking the virtuality of the massive $t$- or $u$-channel propagator (Fig.~\ref{fig:diagrams}b or c).
@@ -64,10 +68,10 @@ In the collinear approach, the $p+\textrm{Pb}\rightarrow \textrm{Pb} + \ell^+\el
 %
 \begin{equation}
 \sigma 
-= S^2 \int dx_p dx_{\rm Pb} \Big[
-\left ( \gamma^{p}_{el}(x_p) + \gamma^{p}_{inel}(x_p,\mu^2) \right)
+= S^2 \int dx_p dx_{\rm Pb} 
+\Big [ \gamma^{p}_{el}(x_p) + \gamma^{p}_{inel}(x_p,\mu^2) \Big]
  \gamma^{\rm Pb}_{el}(x_{\rm Pb})
-\sigma_{\gamma \gamma \rightarrow \ell^+ \ell^-}(x_p, x_{\rm Pb})  \Big]~,
+\sigma_{\gamma \gamma \rightarrow \ell^+ \ell^-}(x_p, x_{\rm Pb}) \,,
 \label{collinear_factorization_formula}
 \end{equation}
 %
